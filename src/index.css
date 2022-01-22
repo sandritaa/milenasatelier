@@ -1,6 +1,7 @@
 
    
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Bebas+Neue&display=swap');
+
 
 /* base styles */
 * {
@@ -35,3 +36,13 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+.home,
+.bio,
+.portfolio,
+.contact{
+  min-height: 60vh;
+}
+
+
+
