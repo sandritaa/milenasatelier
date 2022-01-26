@@ -10,7 +10,7 @@ const Home = () => {
     setLocation("italy");
   };
   return (
-    <div className="home" id="Home">
+    <div className="Home" id="Home">
       <h2>Homepage</h2>
       <p>
         {name} lives in {location}
