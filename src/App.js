@@ -1,6 +1,6 @@
 import "./index.css";
 import Navbar from "./Navbar";
-import Home from "./Home";
+import Journey from "./Journey";
 import Bio from "./Bio";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
@@ -11,8 +11,9 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="content"></div>
-      <Home />
+      {/* <Home /> */}
       <Bio />
+      <Journey />
       <Contact />
       <Portfolio />
     </div>
