@@ -9,7 +9,6 @@ const Navbar = () => {
     const element = document.querySelector(targetId);
     const location = element.offsetTop;
     const navbar = document.querySelector(".navbar");
-    console.log(navbar.clientHeight);
 
     window.scrollTo({
       left: 0,
