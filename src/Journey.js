@@ -16,9 +16,9 @@ const Journey = () => {
     <div className="Journey" id="Journey">
       <p>Journey</p>
       <div>
-        {experienceData.map((Data) => {
-          return (
-            <VerticalTimeline>
+        <VerticalTimeline>
+          {experienceData.map((Data) => {
+            return (
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
@@ -28,8 +28,10 @@ const Journey = () => {
                 contentArrowStyle={{
                   borderRight: "7px solid  rgb(33, 150, 243)",
                 }}
+                lineColor={"rgb(33, 150, 243)"}
                 date={Data.Date}
-                iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff" }}
+                // icon={Data.Icon}
               >
                 <h3 className="vertical-timeline-element-title">
                   {Data.Title}
@@ -39,9 +41,9 @@ const Journey = () => {
                 </h4>
                 <p>{Data.Description}</p>
               </VerticalTimelineElement>
-            </VerticalTimeline>
-          );
-        })}
+            );
+          })}
+        </VerticalTimeline>
       </div>
     </div>
   );

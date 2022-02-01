@@ -10,6 +10,8 @@ experienceData[0] = {
   Date: "Aug. 2021 — Present",
   Description:
     "▪ Teach and introduce children ages 6 - 14 to code using JavaScript, while overseeing day to day coaching and student engagement",
+  Icon: '<img src="./logo1.png" />',
+
   // City: "Fremont",
   // State: "CA",
 };
