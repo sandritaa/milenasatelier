@@ -22,7 +22,7 @@ const Journey = () => {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(33, 150, 243)",
+                  background: "rgb(255, 255, 255)",
                   color: "#fff",
                 }}
                 contentArrowStyle={{
@@ -31,10 +31,13 @@ const Journey = () => {
                 date={Data.Date}
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               >
-                <li key={Data.id}>
-                  {Data.Title} {Data.City} {Data.State} {Data.Date}
-                  {Data.Company} {Data.Description}
-                </li>
+                <h3 className="vertical-timeline-element-title">
+                  {Data.Title}
+                </h3>
+                <h4 className="vertical-timeline-element-subtitle">
+                  {Data.Location}
+                </h4>
+                <p>{Data.Description}</p>
               </VerticalTimelineElement>
             </VerticalTimeline>
           );
@@ -43,9 +46,5 @@ const Journey = () => {
     </div>
   );
 };
-
-/* <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-          <p>Hello</p> */
 
 export default Journey;
