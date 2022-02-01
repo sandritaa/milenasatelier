@@ -70,42 +70,46 @@ export const educationData = [];
 educationData[0] = {
   id: "educationData1",
   School: "Udacity",
-  City: "Mountain View",
-  State: "CA",
+  Location: "Mountain View, CA",
   Degree: "Nanodegree Degree",
   Major: "Front End Web Developer",
   Date: "Jun.2021",
+  // City: "Mountain View",
+  // State: "CA",
 };
 
 educationData[1] = {
   id: "educationData1",
   School: "Fashion Institute of Technology",
-  City: "New York City",
-  State: "NY",
+  Location: "New York City, NY",
   Degree: "Bachelor of Science Degree",
   Major: "Fashion Merchandising Management",
   Honors: "Magna Cum Laude",
   Date: "Dec. 2015",
+  // City: "New York City",
+  // State: "NY",
 };
 
 educationData[2] = {
   id: "educationData1",
   School: "Polimoda",
-  City: "Florence",
-  State: "Italy",
+  Location: "Florence, Italy",
   Degree: "Bachelor of Science Degree",
   Major: "Fashion Merchandising Management",
   Honors: "Study Abroad",
   Date: "May 2015",
+  // City: "Florence",
+  // State: "Italy",
 };
 
 educationData[3] = {
   id: "educationData1",
   School: "Nassau Community College",
-  City: "Garden City",
-  State: "NY",
+  Location: "Garden City, NY",
   Degree: "Associate In Applied Science Degree",
   Major: "Buying and Merchandising",
   Honors: "Magna Cum Laude",
   Date: "May 2013",
+  // City: "Garden City",
+  // State: "NY",
 };
