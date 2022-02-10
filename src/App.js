@@ -1,5 +1,6 @@
 import "./index.css";
 import Navbar from "./Navbar";
+// import NewJourney from "./NewJourney";
 import Journey from "./Journey";
 import Bio from "./Bio";
 import Portfolio from "./Portfolio";
@@ -11,7 +12,6 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="content"></div>
-      {/* <Home /> */}
       <Bio />
       <Journey />
       <Portfolio />

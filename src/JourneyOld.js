@@ -1,11 +1,10 @@
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import "react-vertical-timeline-component/style.min.css";
-import { experienceData } from "./data";
-import { educationData } from "./data";
-import Grid from "@mui/material/Grid";
+// import {
+//     VerticalTimeline,
+//     VerticalTimelineElement,
+//   } from "react-vertical-timeline-component";
+//   import "react-vertical-timeline-component/style.min.css";
+//   import { experienceData } from "./data";
+//   import { educationData } from "./data";
 
 // import myLogo from "./logo1.png";
 
@@ -37,20 +36,25 @@ const Journey = () => {
                   background: "rgb(255, 255, 255)",
                   color: "#fff",
                 }}
-                icon={Data.Icon}
+                icon={<img src={Data.Icon} alt="myLogo" size={35} />}
+                // icon={Data.Icon}
+
+                // icon={
+                //   <div>
+                //     /* <span style="padding-right:3px; padding-top: 3px; display:block;">
+                //     <img src={myLogo} alt="myLogo" style="object-fit: fill;" />
+                //     /* </span> */
+                //   </div>
+                // }
+                // icon={Data.Icon}
               >
                 <h3 className="vertical-timeline-element-title">
                   {Data.Title}
                 </h3>
-
                 <h4 className="vertical-timeline-element-subtitle">
                   {Data.Location}
                 </h4>
-
                 <p>{Data.Description}</p>
-                <p>{Data.Description1}</p>
-                <p>{Data.Description2}</p>
-                <p>{Data.Description3}</p>
               </VerticalTimelineElement>
             );
           })}
@@ -68,7 +72,7 @@ const Journey = () => {
                 lineColor={"rgb(33, 150, 243)"}
                 date={edData.Date}
                 iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff" }}
-                icon={edData.Icon}
+                // icon={Data.Icon}
               >
                 <h2 className="vertical-timeline-element-title">
                   {edData.Degree}
@@ -94,4 +98,4 @@ const Journey = () => {
   );
 };
 
-export default Journey;
+//   export default Journey;

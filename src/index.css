@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=QOpen+Sans:wght@300;400&family=Bebas+Neue&display=swap'); */
+
 
 /* base styles */
 * {
   color: #333;
 }
+
 
 .navbar {
   display: flex;
@@ -57,5 +61,28 @@ h1 {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 70px
+  scroll-padding-top: 70px;
 }
+
+/* h3{
+
+} */
+h3.vertical-timeline-element-title {
+  font-family: 'Inter', sans-serif;
+}
+
+h4.vertical-timeline-element-title {
+  font-family: 'Inter', sans-serif;
+}
+
+p.vertical-timeline-element-title {
+  font-family: 'Inter', sans-serif;
+}
+
+/* @media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  } */
