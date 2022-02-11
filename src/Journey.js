@@ -8,16 +8,16 @@ import { educationData } from "./data";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 // import Paper from "@mui/material/Paper";
-import { styled } from "@mui/material/styles";
+// import { styled } from "@mui/material/styles";
 
 // import logo0 from "./careerIcons/logo0.png";
 
-const Img = styled("img")({
-  margin: "auto",
-  display: "block",
-  maxWidth: "100%",
-  maxHeight: "100%",
-});
+// const Img = styled("img")({
+//   margin: "auto",
+//   display: "block",
+//   maxWidth: "100%",
+//   maxHeight: "100%",
+// });
 
 const Journey = () => {
   // let dataInfo = { educationData };
@@ -35,16 +35,17 @@ const Journey = () => {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(255, 255, 255)",
+                  // background: "rgb(255, 255, 255)",
+                  background: "rgb(250, 250, 250)",
                   color: "#fff",
                 }}
                 contentArrowStyle={{
-                  borderRight: "7px solid  rgb(33, 150, 243)",
+                  borderRight: "7px solid  rgb(97, 97, 97)",
                 }}
                 lineColor={"rgb(33, 150, 243)"}
                 date={Data.Date}
                 iconStyle={{
-                  background: "rgb(255, 255, 255)",
+                  background: "rgb(226, 217, 209)",
                   color: "#fff",
                 }}
                 icon={Data.Icon}
@@ -86,7 +87,7 @@ const Journey = () => {
                       <p>{Data.Description2}</p>
                       <p>{Data.Description3}</p>
                     </Typography>
-                    <Img sx={{ width: 100 }} alt="image1" src={Data.Image} />
+                    {/* <Img sx={{ width: 100 }} alt="image1" src={Data.Image} /> */}
                     {/* <Img sx={{ width: 100 }} alt="complex" src={myLogo} />
                     <Img sx={{ width: 100 }} alt="complex" src={myLogo} /> */}
                   </Grid>
@@ -130,15 +131,15 @@ const Journey = () => {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                  background: "rgb(255, 255, 255)",
+                  background: "rgb(250, 250, 250)",
                   color: "#fff",
                 }}
                 contentArrowStyle={{
-                  borderRight: "7px solid  rgb(33, 150, 243)",
+                  borderRight: "7px solid  rgb(97, 97, 97)",
                 }}
                 lineColor={"rgb(33, 150, 243)"}
                 date={edData.Date}
-                iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff" }}
+                iconStyle={{ background: "rgb(238, 224, 191)", color: "#fff" }}
                 icon={edData.Icon}
               >
                 <h2 className="vertical-timeline-element-title">
