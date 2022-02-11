@@ -6,8 +6,18 @@ import "react-vertical-timeline-component/style.min.css";
 import { experienceData } from "./data";
 import { educationData } from "./data";
 import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+// import Paper from "@mui/material/Paper";
+import { styled } from "@mui/material/styles";
 
-// import myLogo from "./logo1.png";
+// import logo0 from "./careerIcons/logo0.png";
+
+const Img = styled("img")({
+  margin: "auto",
+  display: "block",
+  maxWidth: "100%",
+  maxHeight: "100%",
+});
 
 const Journey = () => {
   // let dataInfo = { educationData };
@@ -39,18 +49,79 @@ const Journey = () => {
                 }}
                 icon={Data.Icon}
               >
-                <h3 className="vertical-timeline-element-title">
+                {/* <h3 className="vertical-timeline-element-title">
                   {Data.Title}
-                </h3>
+                </h3> */}
 
-                <h4 className="vertical-timeline-element-subtitle">
+                {/* <h4 className="vertical-timeline-element-subtitle">
                   {Data.Location}
-                </h4>
+                </h4> */}
+                {/* 
+                <Paper
+                  sx={{ p: 4, margin: "auto", maxWidth: 500, flexGrow: 1 }}
+                > */}
+                <Grid
+                  container
+                  spacing={1}
+                  sx={{
+                    p: 1,
+                    margin: "auto",
+                    maxWidth: 500,
+                    flexGrow: 1,
+                  }}
+                >
+                  {/* <Grid item xs={12} sm={12} md={12} container>
+                    <Grid item xs container direction="column" spacing={2}> */}
+                  <Grid item>
+                    <h3 className="vertical-timeline-element-title">
+                      {Data.Title}
+                    </h3>
+                    <h4 className="vertical-timeline-element-subtitle">
+                      {Data.Location}
+                    </h4>
 
-                <p>{Data.Description}</p>
+                    <Typography variant="body2">
+                      <p>{Data.Description}</p>
+                      <p>{Data.Description1}</p>
+                      <p>{Data.Description2}</p>
+                      <p>{Data.Description3}</p>
+                    </Typography>
+                    <Img sx={{ width: 100 }} alt="image1" src={Data.Image} />
+                    {/* <Img sx={{ width: 100 }} alt="complex" src={myLogo} />
+                    <Img sx={{ width: 100 }} alt="complex" src={myLogo} /> */}
+                  </Grid>
+                </Grid>
+                {/* </Grid>
+                </Grid> */}
+                {/* </Paper> */}
+
+                {/* <Grid
+                  container
+                  rowSpacing={1}
+                  columnSpacing={{
+                    p: 2,
+                    margin: "auto",
+                    maxWidth: 500,
+                    flexGrow: 1,
+                  }}
+                >
+                  <Grid item xs={12} md={6}>
+                    1{" "}
+                  </Grid>
+                  <Grid item xs={6}>
+                    2{" "}
+                  </Grid>
+                  <Grid item xs={6}>
+                    3{" "}
+                  </Grid>
+                  <Grid item xs={6}>
+                    4{" "}
+                  </Grid>
+                </Grid> */}
+                {/* <p>{Data.Description}</p>
                 <p>{Data.Description1}</p>
                 <p>{Data.Description2}</p>
-                <p>{Data.Description3}</p>
+                <p>{Data.Description3}</p> */}
               </VerticalTimelineElement>
             );
           })}

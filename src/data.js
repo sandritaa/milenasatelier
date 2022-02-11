@@ -1,5 +1,11 @@
 import WorkIcon from "@material-ui/icons/WorkOutline";
 import UniIcon from "@material-ui/icons/SchoolOutlined";
+// import Logo0 from "./careerIcons/logo0.png";
+// import logo0 from "./careerIcons/logo0.png";
+// import "./careerIcons/logo0.png";
+// import "./logo4.png";
+
+// import careerIcons from "./careerIcons/logo0.png";
 
 //experince info
 
@@ -16,7 +22,9 @@ experienceData[0] = {
   Description1:
     "▪ Oversee daily operations while following up with leads, schedule tours and close new client contract deals",
   Icon: <WorkIcon />,
-  // Image:
+  // Image: <Logo0 />,
+  // Image: <img src="./careerIcons/logo0.png" alt="hello" />,
+  Image: <img src="./logo4.png" alt="" />,
 
   // City: "Fremont",
   // State: "CA",
