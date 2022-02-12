@@ -13,13 +13,14 @@
 .navbar {
   display: flex;
   align-items: center;
-  /* width: 100vh; */
+  /* width: 100vh; out*/
   max-height: max-content;
-  padding: 30px;
+  /* padding: 30px; */
   position: fixed;
-  background-color: rgb(255, 0, 200);
+  /* background-color: rgb(255, 0, 200); */
+  background-color: rgb(255, 255, 255);
   z-index: 300;
-  /* width: 100%; */
+  /* width: 100%; out*/
   border: 10px solid rgb(255, 255, 255);
 
 }
@@ -27,9 +28,10 @@
 h1 {
   font-family: 'Thasadith', sans-serif;
   font-size: 65px;
-  background-color: rgb(0, 81, 255);
+  /* background-color: rgb(0, 81, 255); */
   position: relative;
   left: 350px;
+  color: rgb(43, 88, 51);
 }
 
 .navbar a {
@@ -38,7 +40,7 @@ h1 {
   /* margin-left: 16px; */
   text-decoration: none;
   padding: 15px;
-  background-color: rgb(255, 196, 0);
+  /* background-color: rgb(255, 196, 0); */
 }
 
 .Bio,
@@ -79,6 +81,15 @@ h4.vertical-timeline-element-title {
 p.vertical-timeline-element-title {
   font-family: 'Inter', sans-serif;
 }
+
+h4.sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+}
+
+
+
+
 
 /* @media only screen and (max-width: 1700px) {
   .vertical-timeline-element-date {
