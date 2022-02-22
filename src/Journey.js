@@ -13,8 +13,9 @@ import Typography from "@mui/material/Typography";
 const Journey = () => {
   return (
     <div className="Journey" id="Journey">
-      <p>Journey</p>
-
+      <div className="journeyTitle" id="journeyTitle">
+        <p>Journey</p>
+      </div>
       <VerticalTimeline>
         {experienceData.map((Data) => {
           return (

@@ -43,7 +43,17 @@ h1 {
   /* background-color: rgb(255, 196, 0); */
 }
 
-.Bio,
+.Bio {
+
+  width: 600px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  /* background-color: rgb(23, 65, 23);
+  color: white; */
+}
+
+/* .Bio, */
 .Journey,
 .Portfolio,
 .Contact {
@@ -56,6 +66,7 @@ h1 {
   /* align-items: center; */
   margin-left: 300px;
 }
+
 
 .sticky {
   position: sticky;
@@ -74,6 +85,14 @@ html {
   font-family: 'Inter', sans-serif;
 } */
 
+.Journey .journeyTitle {
+  font-size: 50px;
+}
+
+h2.vertical-timeline-element-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+}
 
 h4.vertical-timeline-element-title {
   font-family: 'Inter', sans-serif;
