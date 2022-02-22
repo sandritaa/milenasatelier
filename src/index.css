@@ -70,14 +70,20 @@ html {
 /* h3{
 
 } */
-h3.vertical-timeline-element-title {
+/* h3.vertical-timeline-element-title {
   font-family: 'Inter', sans-serif;
-}
+} */
+
 
 h4.vertical-timeline-element-title {
   font-family: 'Inter', sans-serif;
 }
 
+h4.vertical-timeline-element-subtitle {
+  font-family: 'Inter', sans-serif;
+}
+
+/*
 p.vertical-timeline-element-title {
   font-family: 'Inter', sans-serif;
 }
@@ -85,7 +91,7 @@ p.vertical-timeline-element-title {
 h4.sub {
   font-family: 'Inter', sans-serif;
   font-size: 30px;
-}
+} */
 
 
 
