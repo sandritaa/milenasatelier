@@ -2,6 +2,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+
 import "react-vertical-timeline-component/style.min.css";
 import { experienceData } from "./data";
 import { educationData } from "./data";
@@ -9,8 +10,6 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 // import Paper from "@mui/material/Paper";
 // import { styled } from "@mui/material/styles";
-
-// import logo0 from "./careerIcons/logo0.png";
 
 // const Img = styled("img")({
 //   margin: "auto",
@@ -160,9 +159,9 @@ const Journey = () => {
                 }}
               >
                 <Grid item>
-                  <h2 className="vertical-timeline-element-title">
+                  <h3 className="vertical-timeline-element-title">
                     {edData.Degree}
-                  </h2>
+                  </h3>
                   <h4 className="vertical-timeline-element-subtitle">
                     {edData.Major}
                   </h4>
@@ -175,6 +174,8 @@ const Journey = () => {
                   <h4 className="vertical-timeline-element-subtitle">
                     {edData.Location}
                   </h4>
+
+                  {/* <Img sx={{ width: 100 }} alt="image1" src={edData.Image} /> */}
                 </Grid>
               </Grid>
             </VerticalTimelineElement>

@@ -1,11 +1,14 @@
 import WorkIcon from "@material-ui/icons/WorkOutline";
 import UniIcon from "@material-ui/icons/SchoolOutlined";
-// import Logo0 from "./careerIcons/logo0.png";
-// import logo0 from "./careerIcons/logo0.png";
-// import "./careerIcons/logo0.png";
-// import "./logo4.png";
-
-// import careerIcons from "./careerIcons/logo0.png";
+// import CompImg0 from "./careerIcons/logo0.png";
+// import CompImg1 from "./careerIcons/logo1.png";
+// import CompImg2 from "./careerIcons/logo2.png";
+// import CompImg3 from "./careerIcons/logo3.png";
+// import CompImg4 from "./careerIcons/logo4.png";
+// import ColImg0 from "./uniIcons/logo0.png";
+// import ColImg1 from "./uniIcons/logo1.png";
+// import ColImg2 from "./uniIcons/logo2.png";
+// import ColImg3 from "./uniIcons/logo3.png";
 
 //experince info
 
@@ -22,9 +25,8 @@ experienceData[0] = {
   Description1:
     "▪ Oversee daily operations while following up with leads, schedule tours and close new client contract deals",
   Icon: <WorkIcon />,
-  // Image: <Logo0 />,
-  // Image: <img src="./careerIcons/logo0.png" alt="hello" />,
-  Image: <img src="./logo4.png" alt="" />,
+  // Pic: { lll },
+  // Image: CompImg0,
 
   // City: "Fremont",
   // State: "CA",
@@ -42,6 +44,7 @@ experienceData[1] = {
   Description2:
     "▪ Design the web app mockup with Figma and work with business partners on improving the user experience of the app",
   Icon: <WorkIcon />,
+  // Image: CompImg1,
   // City: "Mountain View",
   // State: "CA",
 };
@@ -60,6 +63,7 @@ experienceData[2] = {
   Description2:
     "▪ Worked closely with cross-functional partners to spearhead and improve direct e-commerce customer service which resulted in a 70% growth in sales and helped us reach our sales goal during the covid-19 pandemic",
   Icon: <WorkIcon />,
+  // Image: CompImg2,
   // City: "London",
   // State: "UK",
 };
@@ -79,6 +83,7 @@ experienceData[3] = {
   Description3:
     "▪ Maintained seasonal cost sheets, provided cost options for merchants to help meet margin requirements, as well as hold design integrity",
   Icon: <WorkIcon />,
+  // Image: CompImg3,
   // City: "New York City",
   // State: "NY",
 };
@@ -96,6 +101,7 @@ experienceData[4] = {
   Description2:
     "▪ Prepared product information (cost, suggested retail price, colors, style information, etc.) and confirmed all market orders with buyers and Account Executives",
   Icon: <WorkIcon />,
+  // Image: CompImg4,
   // City: "New York City",
   // State: "NY",
 };
@@ -112,6 +118,7 @@ educationData[0] = {
   Major: "Front End Web Developer",
   Date: "Jun.2021",
   Icon: <UniIcon />,
+  // Image: ColImg0,
   // City: "Mountain View",
   // State: "CA",
 };
@@ -125,6 +132,7 @@ educationData[1] = {
   Honors: "Magna Cum Laude",
   Date: "Dec. 2015",
   Icon: <UniIcon />,
+  // Image: ColImg1,
   // City: "New York City",
   // State: "NY",
 };
@@ -138,6 +146,7 @@ educationData[2] = {
   Honors: "Study Abroad",
   Date: "May 2015",
   Icon: <UniIcon />,
+  // Image: ColImg2,
   // City: "Florence",
   // State: "Italy",
 };
@@ -151,6 +160,7 @@ educationData[3] = {
   Honors: "Magna Cum Laude",
   Date: "May 2013",
   Icon: <UniIcon />,
+  // Image: ColImg3,
   // City: "Garden City",
   // State: "NY",
 };
