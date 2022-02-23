@@ -48,10 +48,17 @@ h1 {
   width: 600px;
   border: 15px solid green;
   padding: 50px;
-  margin: 20px;
+  margin: auto;
   /* background-color: rgb(23, 65, 23);
   color: white; */
 }
+
+img {
+  max-width: 50%;
+  height: auto
+}
+
+
 
 /* .Bio, */
 .Journey,

@@ -3,10 +3,9 @@ import Navbar from "./Navbar";
 // import NewJourney from "./NewJourney";
 import Journey from "./Journey";
 import Bio from "./Bio";
-import Picture from "./Pic";
+// import Picture from "./Pic";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
-import Projects from "./Projects";
 
 function App() {
   // const title= 'sandra novi'
@@ -15,11 +14,10 @@ function App() {
       <Navbar />
       <div className="content"></div>
       <Bio />
-      <Picture />
+      {/* <Picture /> */}
       <Journey />
       <Portfolio />
       <Contact />
-      <Projects />
     </div>
   );
 }

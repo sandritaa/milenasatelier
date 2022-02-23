@@ -1,7 +1,12 @@
+import logo from "./pic.png";
 const Bio = () => {
   return (
     <div className="Bio" id="Bio">
       <h2>Bio</h2>
+      <div className="pic" id="pic">
+        <img src={logo} alt="" />
+      </div>
+
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
         sapiente, obcaecati nemo fugit id, odio non nesciunt suscipit ipsum
