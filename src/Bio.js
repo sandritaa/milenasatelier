@@ -1,4 +1,4 @@
-import logo from "./pic.png";
+import logo from "./portfolioIcons/pic.png";
 const Bio = () => {
   return (
     <div className="Bio" id="Bio">

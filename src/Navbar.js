@@ -28,6 +28,7 @@ const Navbar = () => {
         <a href="#Journey" onClick={handleClick}>
           Journey
         </a>
+
         <a href="#Portfolio" onClick={handleClick}>
           Portfolio
         </a>

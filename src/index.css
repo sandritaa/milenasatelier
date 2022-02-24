@@ -54,24 +54,48 @@ h1 {
 }
 
 img {
-  max-width: 50%;
-  height: auto
+  max-width: 40%;
+  max-height: auto;
+
+  /* position: relative;
+  left: 800px; */
+  /* object-fit: contain; */
 }
 
+.Journey {
+  margin: auto;
 
+}
+
+.Portfolio {
+  margin: auto;
+  margin-top: -200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
 /* .Bio, */
-.Journey,
-.Portfolio,
+/* .Journey, */
+/* .Portfolio, */
 .Contact {
-  width: 60%;
-  min-height: max-content;
-  margin: 100px;
+  margin: auto;
+  margin-top: -700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* align-items: center; */
+  /* width: 60%; */
+  /* min-height: max-content; */
+  /* margin: 100px; */
+
   /* border: rgb(108, 108, 108); */
   /* background-color: rgb(0, 255, 76); */
   /* text-align: center; */
-  /* align-items: center; */
-  margin-left: 300px;
+
+  /* margin-left: 300px; */
 }
 
 
@@ -95,6 +119,8 @@ html {
 .Journey .journeyTitle {
   font-size: 50px;
 }
+
+
 
 h2.vertical-timeline-element-title {
   font-family: 'Inter', sans-serif;
