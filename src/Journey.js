@@ -12,11 +12,11 @@ import Typography from "@mui/material/Typography";
 
 const Journey = () => {
   return (
-    <div className="Journey" id="Journey">
-      <div className="journeyTitle" id="journeyTitle">
-        <p>Journey</p>
+    <div className="Journey1" id="Journey1">
+      <div className="Journey" id="Journey">
+        <h2>Journey</h2>
       </div>
-      <VerticalTimeline lineColor="black">
+      <VerticalTimeline lineColor="black" iconStyle={{ color: "black" }}>
         {experienceData.map((Data) => {
           return (
             <VerticalTimelineElement
@@ -85,6 +85,7 @@ const Journey = () => {
               iconStyle={{
                 background: "#ffffff",
                 color: "#000",
+
                 // background: "rgb(238, 224, 191)",
                 // color: "#fff",
               }}
