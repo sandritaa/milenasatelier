@@ -16,7 +16,7 @@ const Journey = () => {
       <div className="journeyTitle" id="journeyTitle">
         <p>Journey</p>
       </div>
-      <VerticalTimeline>
+      <VerticalTimeline lineColor="black">
         {experienceData.map((Data) => {
           return (
             <VerticalTimelineElement
@@ -28,11 +28,12 @@ const Journey = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(97, 97, 97)",
               }}
-              lineColor={"black"}
               date={Data.Date}
               iconStyle={{
-                background: "rgb(226, 217, 209)",
-                color: "#fff",
+                background: "#ffffff",
+                color: "#000",
+                // background: "rgb(226, 217, 209)",
+                // color: "#fff",
               }}
               icon={Data.Icon}
             >
@@ -69,7 +70,6 @@ const Journey = () => {
             // </div>
           );
         })}
-
         {educationData.map((edData) => {
           return (
             <VerticalTimelineElement
@@ -81,11 +81,12 @@ const Journey = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(97, 97, 97)",
               }}
-              lineColor={"#000"}
               date={edData.Date}
               iconStyle={{
-                background: "rgb(238, 224, 191)",
-                color: "#fff",
+                background: "#ffffff",
+                color: "#000",
+                // background: "rgb(238, 224, 191)",
+                // color: "#fff",
               }}
               icon={edData.Icon}
             >

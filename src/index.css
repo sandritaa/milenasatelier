@@ -1,38 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Thasadith&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=QOpen+Sans:wght@300;400&family=Bebas+Neue&display=swap'); */
 
 
 /* base styles */
 * {
-  color: #333;
+  /* color: #333; */
+  /* background: rgb(182, 174, 174);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%); */
+
 }
 
+/* 
+body {
+
+  background: rgb(227, 227, 227);
+  background: linear-gradient(0deg, rgba(142, 112, 13, 0.591) 0%, rgba(6, 83, 171, 0.543) 100%); */
+/* background: linear-gradient(0deg, rgba(159, 145, 98, 0.269) 0%, rgba(203, 198, 177, 0.18) 100%); */
+
+/* } */
+
+/* .footer {
+  background-color: black;
+} */
 
 .navbar {
+  color: #333;
   display: flex;
   align-items: center;
   /* width: 100vh; out*/
   max-height: max-content;
   /* padding: 30px; */
-  position: fixed;
+  /* position: fixed; */
+  position: relative;
   /* background-color: rgb(255, 0, 200); */
   background-color: rgb(255, 255, 255);
   z-index: 300;
   /* width: 100%; out*/
   border: 10px solid rgb(255, 255, 255);
 
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+
 }
 
 h1 {
-  font-family: 'Thasadith', sans-serif;
+  /* font-family: 'Thasadith', sans-serif;
+   */
+  font-family: 'Oswald', sans-serif;
   font-size: 65px;
+
   /* background-color: rgb(0, 81, 255); */
   position: relative;
-  left: 350px;
-  color: rgb(43, 88, 51);
+  text-transform: uppercase;
+  right: -1950px;
+  /* font-weight: ; */
+  color: rgb(0, 0, 0);
 }
+
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: #424242;
+}
+
+
+/* Icon container's border
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #1976d2, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #c2185b, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+} */
 
 .navbar a {
   position: relative;
@@ -51,6 +92,8 @@ h1 {
   margin: auto;
   /* background-color: rgb(23, 65, 23);
   color: white; */
+  color: #333;
+  font-family: 'Oswald', sans-serif;
 }
 
 img {
@@ -64,7 +107,8 @@ img {
 
 .Journey {
   margin: auto;
-
+  color: #333;
+  /* font-family: 'Oswald', sans-serif; */
 }
 
 .Portfolio {
@@ -74,6 +118,11 @@ img {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  color: #333;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+
 }
 
 /* .Bio, */
@@ -81,11 +130,18 @@ img {
 /* .Portfolio, */
 .Contact {
   margin: auto;
-  margin-top: -700px;
+  /* margin-top: -700px; */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+
+
   /* align-items: center; */
   /* width: 60%; */
   /* min-height: max-content; */
@@ -117,7 +173,11 @@ html {
 } */
 
 .Journey .journeyTitle {
-  font-size: 50px;
+  /* font-size: 50px; */
+  color: #333;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 
@@ -125,14 +185,21 @@ html {
 h2.vertical-timeline-element-title {
   font-family: 'Inter', sans-serif;
   font-weight: bolder;
+  color: #333;
 }
 
 h4.vertical-timeline-element-title {
   font-family: 'Inter', sans-serif;
+  color: #333;
 }
 
 h4.vertical-timeline-element-subtitle {
   font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+p {
+  color: #333;
 }
 
 /*
@@ -156,3 +223,94 @@ h4.sub {
     color: rgb(44, 44, 44);
     margin-top: 1.5em;
   } */
+
+
+/* Background Circles */
+/* Note that background circles are created with psuedo elements before and after */
+/* Circles appear to be random do to use of :nth-of-type psuedo class */
+/* section:nth-of-type(odd) .landing__container::before {
+  content: '';
+  background: rgba(255, 255, 255, 0.187);
+  position: absolute;
+  z-index: -5;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 50%;
+  opacity: 0;
+  transition: ease 0.5s all;
+}
+
+section:nth-of-type(even) .landing__container::before {
+  content: '';
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, .2) 100%);
+  position: absolute;
+  top: 3em;
+  right: 3em;
+  z-index: -5;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  opacity: 0;
+  transition: ease 0.5s all;
+}
+
+section:nth-of-type(3n) .landing__container::after {
+  content: '';
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, .2) 100%);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -5;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  opacity: 0;
+  transition: ease 0.5s all;
+}
+
+section:nth-of-type(3n + 1) .landing__container::after {
+  content: '';
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, .2) 100%);
+  position: absolute;
+  right: 20vw;
+  bottom: -5em;
+  z-index: -5;
+  width: 15vh;
+  height: 15vh;
+  border-radius: 50%;
+  opacity: 0;
+  transition: ease 0.5s all;
+} */
+
+
+/* ---- Theme State Rules ---- */
+/* Section Active Styles */
+/* Note: your-active-class class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
+/* section.your-active-class {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+section.your-active-class .landing__container::before {
+  opacity: 1;
+  animation: rotate 4s linear 0s infinite forwards;
+}
+
+section.your-active-class .landing__container::after {
+  opacity: 1;
+  animation: rotate 5s linear 0s infinite forwards reverse;
+} */
+
+/* Section Active Styles Keyframe Animations */
+/* @keyframes rotate {
+  from {
+    transform: rotate(0deg) translate(-1em) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-1em) rotate(-360deg);
+  }
+} */
