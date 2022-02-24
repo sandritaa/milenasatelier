@@ -19,7 +19,7 @@ const Item = styled(Paper)(({ theme }) => ({
 function Portfolio() {
   return (
     <div className="Portfolio" id="Portfolio">
-      <p>Portfolio</p>
+      <h2>Portfolio</h2>
 
       <Box sx={{ width: "60%", height: 200, margin: "auto" }}>
         <Grid
