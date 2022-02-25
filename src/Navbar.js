@@ -21,6 +21,7 @@ const Navbar = () => {
   return (
     <nav className="navbar sticky">
       <h1>sandra novi</h1>
+
       <div className="links">
         <a href="#Bio" onClick={handleClick}>
           Bio

@@ -3,6 +3,7 @@ const Bio = () => {
   return (
     <div className="Bio" id="Bio">
       <h2>Bio</h2>
+
       <div className="pic" id="pic">
         <img src={logo} alt="" />
       </div>
