@@ -2,13 +2,13 @@ import logo from "./portfolioIcons/pic.png";
 const Bio = () => {
   return (
     <div className="Bio" id="Bio">
-      <h2>Bio</h2>
+      <h2 className="bioTitle">Bio</h2>
 
-      <div className="pic" id="pic">
+      <div className="bioPic" id="bioPic">
         <img src={logo} alt="" />
       </div>
 
-      <p>
+      <p className="bioText">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
         sapiente, obcaecati nemo fugit id, odio non nesciunt suscipit ipsum
         officiis numquam accusantium quae perferendis quisquam? Exercitationem,

@@ -30,54 +30,64 @@ function Portfolio() {
           spacing={{ xs: 2, md: 3 }}
           columns={{ xs: 12 }}
         >
-          <Grid item xs={3}>
-            <Item>
-              <div className="pic1" id="pic1">
-                <img src={project1} alt="" />
-              </div>
-              <p>
-                antium quae perferendis quisquam? Exercitationem, non?
-                Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit.
-              </p>
-            </Item>
-          </Grid>
-          <Grid item xs={3}>
-            <Item>
-              <div className="pic2" id="pic2">
-                <img src={project2} alt="" />
-              </div>
-              <p>
-                antium quae perferendis quisquam? Exercitationem, non?
-                Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit.
-              </p>
-            </Item>
-          </Grid>
-          <Grid item xs={3}>
-            <Item>
-              <div className="pic3" id="pic3">
-                <img src={project3} alt="" />
-              </div>
-              <p>
-                antium quae perferendis quisquam? Exercitationem, non?
-                Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit.
-              </p>
-            </Item>
-          </Grid>
-          <Grid item xs={3}>
-            <Item>
-              <div className="pic4" id="pic4">
-                <img src={project4} alt="" />
-              </div>
-              <p>
-                antium quae perferendis quisquam? Exercitationem, non?
-                Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
-                consectetur adipisicing elit.
-              </p>
-            </Item>
-          </Grid>
+          <section>
+            <Grid item xs={3}>
+              <Item>
+                <div className="item1">
+                  <div className="pic1" id="pic1">
+                    <img src={project1} alt="" />
+                  </div>
+                  <p>
+                    antium quae perferendis quisquam? Exercitationem, non?
+                    Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit.
+                  </p>
+                </div>
+              </Item>
+            </Grid>
+            <Grid item xs={3}>
+              <Item>
+                <div className="item2">
+                  <div className="pic2" id="pic2">
+                    <img src={project2} alt="" />
+                  </div>
+                  <p>
+                    antium quae perferendis quisquam? Exercitationem, non?
+                    Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit.
+                  </p>
+                </div>
+              </Item>
+            </Grid>
+            <Grid item xs={3}>
+              <Item>
+                <div className="item3">
+                  <div className="pic3" id="pic3">
+                    <img src={project3} alt="" />
+                  </div>
+                  <p>
+                    antium quae perferendis quisquam? Exercitationem, non?
+                    Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit.
+                  </p>
+                </div>
+              </Item>
+            </Grid>
+            <Grid item xs={3}>
+              <Item>
+                <div className="item4">
+                  <div className="pic4" id="pic4">
+                    <img src={project4} alt="" />
+                  </div>
+                  <p>
+                    antium quae perferendis quisquam? Exercitationem, non?
+                    Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit.
+                  </p>
+                </div>
+              </Item>
+            </Grid>
+          </section>
         </Grid>
       </Box>
     </div>

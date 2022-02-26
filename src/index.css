@@ -12,7 +12,7 @@
   font-weight: 300;
   height: 170px;
   background-color: rgb(0, 0, 0);
-  z-index: 600;
+  z-index: 2;
 }
 
 .navbar a {
@@ -23,8 +23,10 @@
   padding: 15px;
   position: relative;
   left: -1970px;
-  padding: 2200px 011px;
+  /* padding: 2200px 011px; */
   justify-content: space-between;
+  width: max-content;
+  height: max-content;
 }
 
 
@@ -118,7 +120,7 @@ html {
   text-transform: uppercase;
   position: relative;
   left: 220px;
-  z-index: 400;
+  z-index: 1;
 }
 
 
@@ -126,9 +128,9 @@ html {
   color: white;
   background-color: black;
   width: max-content;
-
-
 }
+
+
 
 .Bio h2 {
 
@@ -138,7 +140,7 @@ html {
   text-transform: uppercase;
   position: relative;
   left: -710px;
-  z-index: 300;
+  z-index: 1;
 
 }
 
@@ -149,7 +151,39 @@ html {
   width: max-content;
 
 
+
   /* background-position: xpox ypos; */
+
+}
+
+.bioPic {
+  max-width: 70%;
+  max-height: auto;
+  position: relative;
+  bottom: -40px;
+  right: -600px;
+}
+
+.bioText {
+  position: relative;
+  bottom: 180px;
+  left: -230px;
+
+}
+
+section.wrapper {
+  min-width: 400px;
+  /* Minimum width of your wrapper element */
+  overflow: hidden;
+  display: inline-block;
+
+
+}
+
+section {
+  position: relative;
+  right: -500px;
+
 
 }
 
@@ -161,7 +195,8 @@ html {
   text-transform: uppercase;
   position: relative;
   left: 300px;
-  z-index: 400;
+  top: -200px;
+  z-index: 1;
 }
 
 .Portfolio h2:hover {
@@ -178,7 +213,7 @@ html {
   text-transform: uppercase;
   position: relative;
   left: -700px;
-  z-index: 400;
+  z-index: 1;
 }
 
 
@@ -191,24 +226,99 @@ html {
 
 }
 
-h2.vertical-timeline-element-title {
+.workTitle-title {
   font-family: 'Oswald', sans-serif;
-
-  /* font-family: 'Inter', sans-serif; */
-  /* font-weight: bolder; */
+  font-size: 20px;
   color: rgb(0, 0, 0);
+  text-transform: uppercase;
 }
 
-h4.vertical-timeline-element-title {
+.workCompany-subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: -17px;
+  text-transform: uppercase;
+
+}
+
+.workLocation-subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  /* font-family: 'Inter', sans-serif; */
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  position: relative;
+  top: -32px;
+
+}
+
+
+.workDescription0 p {
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: -15px;
   font-family: 'Inter', sans-serif;
+  /* font-size: 45px; */
+
+}
+
+.edDegree-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+
+}
+
+.edkMajorHonors-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: -17px;
+  /* text-transform: uppercase; */
+}
+
+.edSchool-subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: -17px;
+  text-transform: uppercase;
+}
+
+.edLocation-subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: -35px;
+  text-transform: uppercase;
+}
+
+/* h4.vertical-timeline-element-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
   color: rgb(0, 0, 0);
 }
 
 h4.vertical-timeline-element-subtitle {
   font-family: 'Inter', sans-serif;
   color: rgb(0, 0, 0);
-}
+} */
 
-p {
+
+
+/* .vertical-timeline-element-title {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  position: relative;
+  left: 0px;
+  font-weight: bolder;
   color: rgb(0, 0, 0);
-}
+} */
