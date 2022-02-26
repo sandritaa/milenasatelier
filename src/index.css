@@ -176,6 +176,7 @@ section.wrapper {
   /* Minimum width of your wrapper element */
   overflow: hidden;
   display: inline-block;
+  padding-bottom: 20px;
 
 
 }
@@ -203,6 +204,11 @@ section {
   color: white;
   background-color: black;
   width: max-content;
+}
+
+.Contact {
+  position: relative;
+  bottom: auto;
 }
 
 .Contact h2 {
