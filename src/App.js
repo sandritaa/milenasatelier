@@ -1,11 +1,9 @@
 import "./index.css";
 import Navbar from "./Navbar";
-// import NewJourney from "./NewJourney";
-import Journey from "./Journey";
-import Bio from "./Bio";
-// import Picture from "./Pic";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
+// import Journey from "./Journey";
+// import Bio from "./Bio";
+// import Portfolio from "./Portfolio";
+// import Contact from "./Contact";
 
 function App() {
   // const title= 'sandra novi'
@@ -13,11 +11,11 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="content"></div>
-      <Bio />
-      {/* <Picture /> */}
-      <Journey />
+      {/* <Bio /> */}
+
+      {/* <Journey />
       <Portfolio />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }

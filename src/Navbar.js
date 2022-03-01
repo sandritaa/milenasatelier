@@ -19,25 +19,25 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar sticky">
-      <h1>sandra novi</h1>
-
-      <div className="links">
-        <a href="#Bio" onClick={handleClick}>
-          Bio
-        </a>
-        <a href="#Journey" onClick={handleClick}>
-          Journey
-        </a>
-
-        <a href="#Portfolio" onClick={handleClick}>
-          Portfolio
-        </a>
-        <a href="#Contact" onClick={handleClick}>
-          Contact
-        </a>
-      </div>
-    </nav>
+    <div className="navbarContainer">
+      <nav className="navbar sticky">
+        <h1>sandra novi</h1>
+        <div className="links-item">
+          <a href="#Bio" onClick={handleClick}>
+            Bio
+          </a>
+          <a href="#Journey" onClick={handleClick}>
+            Journey
+          </a>
+          <a href="#Portfolio" onClick={handleClick}>
+            Portfolio
+          </a>
+          <a href="#Contact" onClick={handleClick}>
+            Contact
+          </a>
+        </div>
+      </nav>
+    </div>
   );
 };
 
