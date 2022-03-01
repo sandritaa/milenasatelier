@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbarContainer">
+    <header className="layoutContainer">
       <nav className="navbar sticky">
         <h1>sandra novi</h1>
         <div className="links-item">
@@ -37,7 +37,7 @@ const Navbar = () => {
           </a>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 
