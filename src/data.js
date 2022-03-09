@@ -17,7 +17,7 @@ export const experienceData = [];
 experienceData[0] = {
   id: "experienceData1",
   Company: "Code Ninjas",
-  Title: "Software Development Instructor",
+  Title: "Head Instructor",
   Location: "Fremont, CA",
   Date: "Aug. 2021 — Present",
   Description:
@@ -31,7 +31,25 @@ experienceData[0] = {
   // City: "Fremont",
   // State: "CA",
 };
+
 experienceData[1] = {
+  id: "experienceData1",
+  Company: "Code Ninjas",
+  Title: "Coding Instructor",
+  Location: "Fremont, CA",
+  Date: "Aug. 2021 — Mar.2022",
+  Description:
+    "▪ Teach and introduce children ages 6 - 14 to code using JavaScript and Scratch",
+  Description1:
+    "▪ Oversee daily operations while following up with leads, schedule tours and close new client contract deals",
+  Icon: <WorkIcon />,
+  // Pic: { lll },
+  // Image: CompImg0,
+
+  // City: "Fremont",
+  // State: "CA",
+};
+experienceData[2] = {
   id: "experienceData2",
   Company: "RedSol",
   Title: "Web App Developer",
@@ -49,7 +67,7 @@ experienceData[1] = {
   // State: "CA",
 };
 
-experienceData[2] = {
+experienceData[3] = {
   id: "experienceData3",
   Company: "Wyse. Limited",
 
@@ -68,7 +86,7 @@ experienceData[2] = {
   // State: "UK",
 };
 
-experienceData[3] = {
+experienceData[4] = {
   id: "experienceData4",
   Company: "Coach",
   Title: "Product Developement and Production Coordinator",
@@ -88,7 +106,7 @@ experienceData[3] = {
   // State: "NY",
 };
 
-experienceData[4] = {
+experienceData[5] = {
   id: "experienceData5",
   Company: "La Perla",
   Title: "Wholesale Assistant",

@@ -26,7 +26,7 @@ const Journey = () => {
                   className="vertical-timeline-element--work"
                   contentStyle={{
                     background: "rgb(250, 250, 250)",
-                    color: "#fff",
+                    color: "#000",
                   }}
                   contentArrowStyle={{
                     borderRight: "7px solid  rgb(97, 97, 97)",
@@ -34,8 +34,8 @@ const Journey = () => {
                   date={Data.Date}
                   iconStyle={{
                     background: "#ffffff",
-                    color: "#000",
-                    // background: "rgb(226, 217, 209)",
+                    color: "##000000",
+                    // background: "rgb(22\\6, 217, 209)",
                     // color: "#fff",
                   }}
                   icon={Data.Icon}
@@ -75,7 +75,7 @@ const Journey = () => {
                   className="vertical-timeline-element--edu"
                   contentStyle={{
                     background: "rgb(250, 250, 250)",
-                    color: "#fff",
+                    color: "#000",
                   }}
                   contentArrowStyle={{
                     borderRight: "7px solid  rgb(97, 97, 97)",
