@@ -1,7 +1,7 @@
 import "./index.css";
 import Navbar from "./Navbar";
-// import Journey from "./Journey";
-// import Bio from "./Bio";
+import Bio from "./Bio";
+import Journey from "./Journey";
 // import Portfolio from "./Portfolio";
 // import Contact from "./Contact";
 
@@ -11,11 +11,11 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="content"></div>
-      {/* <Bio /> */}
+      <Bio />
 
-      {/* <Journey />
-      <Portfolio />
-      <Contact /> */}
+      <Journey />
+      {/* <Portfolio /> */}
+      {/* <Contact /> */}
     </div>
   );
 }

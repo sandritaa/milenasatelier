@@ -1,3 +1,4 @@
+import { Title } from "@material-ui/icons";
 import React, { useRef } from "react";
 
 function Contact() {
@@ -18,54 +19,61 @@ function Contact() {
   };
 
   return (
-    <div className="Contact" id="Contact">
-      <h2>Contact us</h2>
-      <form onSubmit={handleSubmit} className="form">
-        <div className="name">
-          <label for="firstName" id="nameLabel">
-            First Name
-          </label>
+    <footer className="footer" id="footer">
+      <div className="contact" id="Contact">
+        <h2 className="sectionTitle" id="contactTitle">
+          contact me
+        </h2>
+
+        <form onSubmit={handleSubmit} className="contactForm">
+          <div className="name">
+            <label for="firstName" id="nameLabel">
+              First Name
+            </label>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              className="firstName"
+              ref={firstNameRef}
+              tabindex="1"
+            />
+
+            <label for="lastName">Last name</label>
+            <input
+              type="text"
+              id="lastName"
+              className="lastName"
+              ref={lastNameRef}
+              tabindex="2"
+            />
+          </div>
+          <label for="email">Email</label>
           <input
-            type="text"
-            id="firstName"
-            name="firstName"
-            className="firstName"
-            ref={firstNameRef}
-            tabindex="1"
+            type="email"
+            name="email"
+            id="email"
+            className="email"
+            placeholder="example@corp.com"
+            ref={emailRef}
+            tabindex="3"
           />
 
-          <label for="lastName">Last name</label>
-          <input
-            type="text"
-            id="lastName"
-            className="lastName"
-            ref={lastNameRef}
-            tabindex="2"
-          />
-        </div>
-        <label for="email">Email</label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          className="email"
-          placeholder="example@corp.com"
-          ref={emailRef}
-          tabindex="3"
-        />
+          <label for="message">Message</label>
+          <textarea
+            placeholder="Start typing..."
+            className="message"
+            name="message"
+            ref={messageRef}
+          ></textarea>
+          <button type="submit" className="send">
+            Send
+          </button>
+        </form>
 
-        <label for="message">Message</label>
-        <textarea
-          placeholder="Start typing..."
-          className="message"
-          name="message"
-          ref={messageRef}
-        ></textarea>
-        <button type="submit" className="send">
-          Send
-        </button>
-      </form>
-    </div>
+        <div className="invisibleElement"></div>
+      </div>
+    </footer>
   );
 }
 

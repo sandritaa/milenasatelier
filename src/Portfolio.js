@@ -18,79 +18,88 @@ const Item = styled(Paper)(({ theme }) => ({
 
 function Portfolio() {
   return (
-    <div className="Portfolio" id="Portfolio">
-      <h2>Portfolio</h2>
+    <section className="boxes">
+      <div className="portfolioContainer" id="portfolioContainer">
+        {/* <h2>Portfolio</h2> */}
 
-      <Box sx={{ width: "60%", height: 200, margin: "auto" }}>
-        <Grid
-          // sx={{
-          //   height: 200,
-          // }}
-          container
-          spacing={{ xs: 2, md: 3 }}
-          columns={{ xs: 12 }}
-        >
-          <section>
-            <Grid item xs={3}>
-              <Item>
-                <div className="item1">
-                  <div className="pic1" id="pic1">
-                    <img src={project1} alt="" />
+        <Box sx={{ width: "60%", height: 200, margin: "auto" }}>
+          <Grid
+            // sx={{
+            //   height: 200,
+            // }}
+            container
+            spacing={{ xs: 2, md: 3 }}
+            columns={{ xs: 12 }}
+          >
+            <section>
+              <Grid item xs={3}>
+                <Item>
+                  <div className="item1">
+                    <div className="pic1" id="pic1">
+                      <img src={project1} alt="" />
+                    </div>
+                    <p>
+                      antium quae perferendis quisquam? Exercitationem, non?
+                      Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
+                      consectetur adipisicing elit.
+                    </p>
                   </div>
-                  <p>
-                    antium quae perferendis quisquam? Exercitationem, non?
-                    Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                  </p>
-                </div>
-              </Item>
-            </Grid>
-            <Grid item xs={3}>
-              <Item>
-                <div className="item2">
-                  <div className="pic2" id="pic2">
-                    <img src={project2} alt="" />
+                </Item>
+              </Grid>
+              <Grid item xs={3}>
+                <Item>
+                  <div className="item2">
+                    <div className="pic2" id="pic2">
+                      <img src={project2} alt="" />
+                    </div>
+                    <p>
+                      antium quae perferendis quisquam? Exercitationem, non?
+                      Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
+                      consectetur adipisicing elit.
+                    </p>
                   </div>
-                  <p>
-                    antium quae perferendis quisquam? Exercitationem, non?
-                    Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                  </p>
-                </div>
-              </Item>
-            </Grid>
-            <Grid item xs={3}>
-              <Item>
-                <div className="item3">
-                  <div className="pic3" id="pic3">
-                    <img src={project3} alt="" />
+                </Item>
+              </Grid>
+              <Grid item xs={3}>
+                <Item>
+                  <div className="item3">
+                    <div className="pic3" id="pic3">
+                      <img src={project3} alt="" />
+                    </div>
+                    <p>
+                      antium quae perferendis quisquam? Exercitationem, non?
+                      Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
+                      consectetur adipisicing elit.
+                    </p>
                   </div>
-                  <p>
-                    antium quae perferendis quisquam? Exercitationem, non?
-                    Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                  </p>
-                </div>
-              </Item>
-            </Grid>
-            <Grid item xs={3}>
-              <Item>
-                <div className="item4">
-                  <div className="pic4" id="pic4">
-                    <img src={project4} alt="" />
+                </Item>
+              </Grid>
+              <Grid item xs={3}>
+                <Item>
+                  <div className="item4">
+                    <div className="pic4" id="pic4">
+                      <img src={project4} alt="" />
+                    </div>
+                    <p>
+                      antium quae perferendis quisquam? Exercitationem, non?
+                      Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
+                      consectetur adipisicing elit.
+                    </p>
                   </div>
-                  <p>
-                    antium quae perferendis quisquam? Exercitationem, non?
-                    Reprehenderit, ad maxime! Lorem, ipsum dolor sit amet
-                    consectetur adipisicing elit.
-                  </p>
-                </div>
-              </Item>
-            </Grid>
-          </section>
-        </Grid>
-      </Box>
-    </div>
+                </Item>
+              </Grid>
+            </section>
+          </Grid>
+        </Box>
+      </div>
+      <header className="header">
+        <div class="container">
+          <div>
+            <h2>Portfolio</h2>
+          </div>
+        </div>
+      </header>
+    </section>
   );
 }
 

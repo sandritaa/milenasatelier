@@ -14,25 +14,191 @@ body {
 /* } */
 
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 70px;
+/* general */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  line-height: 1.5;
+}
+
+/* html {
+  scroll-behavior: smooth; */
+/* scroll-padding-top: 70px; */
+/* } */
+
+/* .sticky {
+  position: sticky;
+  /* top: 0; */
+/* }  */
+
+h1 {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/*navbar*/
+.navbar {
+  height: 200px;
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-family: 'Oswald', sans-serif;
+  flex-direction: row-reverse;
+}
+
+.navbar .logo {
+  /* font-size: x-large; */
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  color: black;
+  background-color: white;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+/* bio */
+
+
+.bioHeader {
+  min-height: 400px;
+
+}
+
+.bioHeader h2 {
+  font-size: 2.5rem;
+  line-height: 2.0;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bioHeader h2:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.bioHeader img {
+  max-width: 250px;
+}
+
+.bioHeader .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*journey*/
+
+.journeyHeader {
+  min-height: 400px;
+
+
+}
+
+.journeyHeader h2 {
+  font-size: 2.5rem;
+  line-height: 2.0;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.journeyHeader h2:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.vertical-timeline-element--work h3 {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.99rem;
+}
+
+.vertical-timeline-element--work h4 {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.8rem;
+}
+
+.vertical-timeline-element--work p {
+  color: rgb(0, 0, 0);
+
+}
+
+.vertical-timeline-element--edu h3 {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.99rem;
+}
+
+.vertical-timeline-element--edu h4 {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
 
 
 /* Navbar styling */
 
-.layoutContainer {
+/* .header {
+  position: absolute;
+  top: 0;
   width: 100%;
   color: rgb(255, 255, 255);
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(229, 229, 229);
   z-index: 2;
-  height: 300px;
-}
+  height: 20%;
+} */
 
-.navbar {
+/* .navbar {
   height: 100%;
   width: 70%;
   margin: auto;
@@ -48,7 +214,7 @@ html {
   top: 0;
 }
 
-.layoutContainer h1 {
+.header h1 {
   font-weight: 400;
   font-size: 65px;
   background-color: rgb(10, 32, 234);
@@ -60,10 +226,10 @@ html {
   padding: 15px;
   color: inherit;
   background-color: rgb(0, 226, 4);
-}
+} */
 
 /* Bio Styling */
-
+/* 
 
 .Bio {
   width: 700px;
@@ -112,6 +278,72 @@ img {
   background-color: black;
   width: max-content;
 }
+
+
+ */
+
+
+
+
+
+
+/* Footer Styling */
+/* 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: aqua;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  height: 80%;
+} */
+
+/*contact styling*/
+/* 
+.contact {
+  background-color: rgb(255, 170, 0);
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+
+}
+
+.contact h2 {
+  background-color: rgb(255, 0, 230);
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  text-transform: uppercase;
+  z-index: 1;
+  flex: 1;
+}
+
+.contactForm {
+  background-color: rgb(0, 55, 255);
+  flex: 1;
+}
+
+.invisibleElement {
+  flex: 1;
+} */
+
+
+
+/* .Contact h2:hover {
+  color: black;
+  background-color: white;
+  width: max-content;
+} */
+
+
 
 
 
@@ -260,34 +492,6 @@ section {
   width: max-content;
 }
 
-.Contact {
-  position: relative;
-  bottom: auto;
-}
-
-.Contact h2 { */
-/* font-size: 50px; */
-
-
-
-/* color: rgb(255, 255, 255);
-  font-family: 'Oswald', sans-serif;
-  font-size: 45px;
-  text-transform: uppercase;
-  position: relative;
-  left: -700px;
-  z-index: 1;
-} */
-
-
-/* .Contact h2:hover {
-  color: black;
-  background-color: white;
-  width: max-content;
-
-
-
-}
 
 .workTitle-title {
   font-family: 'Oswald', sans-serif;
