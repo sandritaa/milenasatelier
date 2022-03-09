@@ -37,7 +37,7 @@ experienceData[1] = {
   Company: "Code Ninjas",
   Title: "Coding Instructor",
   Location: "Fremont, CA",
-  Date: "Aug. 2021 — Mar.2022",
+  Date: "Aug. 2021 — Mar. 2022",
   Description:
     "▪ Teach and introduce children ages 6 - 14 to code using JavaScript and Scratch",
   Description1:
@@ -134,7 +134,7 @@ educationData[0] = {
   Location: "Mountain View, CA",
   Degree: "Nanodegree Degree",
   Major: "Front End Web Development",
-  Date: "Jun.2021",
+  Date: "Jun. 2021",
   Icon: <UniIcon />,
   // Image: ColImg0,
   // City: "Mountain View",

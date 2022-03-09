@@ -2,7 +2,7 @@ import "./index.css";
 import Navbar from "./Navbar";
 import Bio from "./Bio";
 import Journey from "./Journey";
-// import Portfolio from "./Portfolio";
+import Portfolio from "./Portfolio";
 // import Contact from "./Contact";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Bio />
 
       <Journey />
-      {/* <Portfolio /> */}
+      <Portfolio />
       {/* <Contact /> */}
     </div>
   );

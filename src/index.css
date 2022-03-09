@@ -45,15 +45,18 @@ ul {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 30px;
+
+
 }
 
 /*navbar*/
 .navbar {
   height: 200px;
   background-color: rgb(0, 0, 0);
+
 }
 
 .navbar .container {
@@ -63,6 +66,7 @@ ul {
   height: 100%;
   font-family: 'Oswald', sans-serif;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 
 .navbar .logo {
@@ -91,7 +95,8 @@ ul {
 }
 
 .navbar ul li {
-  margin-left: 20px;
+  margin-right: 33px;
+
 }
 
 /* bio */
@@ -99,6 +104,9 @@ ul {
 
 .bioHeader {
   min-height: 400px;
+  margin-top: 70px;
+  /* margin-bottom: 70px; */
+
 
 }
 
@@ -107,22 +115,44 @@ ul {
   line-height: 2.0;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
+  margin-bottom: 20px;
+
 }
 
 .bioHeader h2:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
+
 }
 
-.bioHeader img {
-  max-width: 250px;
-}
 
+
+
+/* NEED PLACE BACK */
 .bioHeader .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  background-color: aqua;
+
 }
+
+
+.bioHeader p {
+
+  max-width: 800px;
+
+}
+
+.bioHeader img {
+  max-width: 230px;
+  align-self: end;
+
+
+}
+
+
 
 /*journey*/
 
@@ -137,6 +167,7 @@ ul {
   line-height: 2.0;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
+  margin-bottom: 20px;
 }
 
 .journeyHeader h2:hover {
@@ -180,9 +211,29 @@ ul {
 
 
 
+/* portfolio */
+
+.boxes h2 {
+  font-size: 2.5rem;
+  line-height: 2.0;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  /* margin-bottom: 1000px; */
+
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 
+.box {
+  flex: 1;
+  margin: 20px 10px;
+  background-color: blue;
 
+}
 
 
 

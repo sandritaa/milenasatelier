@@ -27,7 +27,7 @@ const Bio = () => {
           </div>
           <img src={bioPic} alt="" />
         </div>
-        {/* </div> */}
+        {/* <img src={bioPic} alt="" /> */}
       </section>
     </body>
   );
