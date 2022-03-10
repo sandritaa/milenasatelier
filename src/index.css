@@ -52,6 +52,24 @@ ul {
 
 }
 
+.headerPortContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.headerBioContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.headerJourneyContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
 /*navbar*/
 .navbar {
   height: 200px;
@@ -110,7 +128,12 @@ ul {
 
 }
 
-.bioHeader h2 {
+.headerBioContainer {
+  /* min-height: 400px; */
+  margin-top: 50px;
+}
+
+.headerBioContainer h2 {
   font-size: 2.5rem;
   line-height: 2.0;
   text-transform: uppercase;
@@ -119,7 +142,7 @@ ul {
 
 }
 
-.bioHeader h2:hover {
+.headerBioContainer h2:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
 
@@ -134,7 +157,6 @@ ul {
   align-items: center;
   justify-content: space-between;
 
-  background-color: aqua;
 
 }
 
@@ -162,7 +184,7 @@ ul {
 
 }
 
-.journeyHeader h2 {
+.headerJourneyContainer h2 {
   font-size: 2.5rem;
   line-height: 2.0;
   text-transform: uppercase;
@@ -170,7 +192,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.journeyHeader h2:hover {
+.headerJourneyContainer h2:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
 }
@@ -213,27 +235,51 @@ ul {
 
 /* portfolio */
 
-.boxes h2 {
+.headerPortContainer h2 {
   font-size: 2.5rem;
   line-height: 2.0;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-  /* margin-bottom: 1000px; */
+  margin-bottom: 20px;
+
+}
+
+.headerPortContainer h2:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 
 }
 
 .boxes .container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-
 
 .box {
   flex: 1;
-  margin: 20px 10px;
-  background-color: blue;
+  margin: 20px 50px;
+  box-shadow: 0 3px 5px rgba(200, 197, 197, 0.6);
+  padding: 15px 20px;
+}
+
+.box h3 {
+  font-size: .99rem;
+  /* line-height: 2.0; */
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
 
 }
+
+.box img {
+  max-width: 1500px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
 
 
 

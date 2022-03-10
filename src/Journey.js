@@ -13,11 +13,18 @@ import Grid from "@mui/material/Grid";
 const Journey = () => {
   return (
     <body>
+      <div className="headerJourneyContainer">
+        {" "}
+        <div>
+          <h2>Journey</h2>
+        </div>
+      </div>
+
       <section className="journeyHeader">
         <div className="container" id="journeyContainer">
-          <div>
+          {/* <div>
             <h2>Journey</h2>
-          </div>
+          </div> */}
 
           <VerticalTimeline lineColor="black" iconStyle={{ color: "black" }}>
             {experienceData.map((Data) => {
