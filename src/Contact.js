@@ -93,13 +93,13 @@ function Contact() {
                     required
                   ></textarea>
                 </div>
-                {/* <div className="thanksBox">
+                <div className="returnBox">
                   <input
                     type="hidden"
                     name="_next"
-                    value="https://sandritaa.github.io/milenasatelier/thankyou.html"
-                  /> */}
-                {/* </div> */}
+                    value="https://sandritaa.github.io/milenasatelier/"
+                  />
+                </div>
                 <div className="buttonBox">
                   <button type="submit" className="send" onclick="myFunction()">
                     Send
