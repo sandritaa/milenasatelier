@@ -37,8 +37,6 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 30px;
-
-
 }
 
 .headerPortContainer,
@@ -50,8 +48,19 @@ ul {
   padding: 0 30px;
 }
 
+.headerBioContainer h2,
+.headerJourneyContainer h2,
+.headerPortContainer h2,
+.headerContact h2 {
+  font-size: 2.5rem;
+  line-height: 2.0;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 20px;
+}
 
 /*navbar*/
+
 .navbar {
   height: 200px;
   background-color: rgb(0, 0, 0);
@@ -59,8 +68,6 @@ ul {
   position: fixed;
   width: 100%;
   top: 0;
-
-
 }
 
 .navbar .container {
@@ -71,21 +78,18 @@ ul {
   font-family: 'Oswald', sans-serif;
   flex-direction: row-reverse;
   flex-wrap: wrap;
-  /* top: 0; */
-
 }
 
 .navbar .logo {
-  /* font-size: x-large; */
   font-size: 60px;
   font-weight: bold;
   color: white;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  /* background-color: rgb(255, 255, 255); */
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.headerContact h2:hover {
   color: black;
   background-color: white;
 }
@@ -99,73 +103,49 @@ ul {
   color: white;
   text-transform: uppercase;
   font-size: 25px;
-  /* background-color: rgb(15, 6, 193); */
 }
 
 .navbar ul li {
   margin-right: 33px;
-
 }
 
 /* bio */
 
-
 .bioHeader {
   min-height: 400px;
   margin-top: 20px;
-
-  /* margin-bottom: 70px; */
-
-
 }
 
 .headerBioContainer {
-  /* min-height: 400px; */
   margin-top: 50px;
-
 }
 
 .headerBioContainer h2 {
-  font-size: 2.5rem;
-  line-height: 2.0;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  margin-bottom: 20px;
   margin-top: 300px;
-
-
 }
 
-.headerBioContainer h2:hover {
+.headerBioContainer h2:hover,
+.headerJourneyContainer h2:hover,
+.headerPortContainer h2:hover,
+.headerContactContainer h2:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
-
 }
 
-
-
-
-/* NEED PLACE BACK */
 .bioHeader .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-
 }
 
 
 .bioHeader p {
-
   max-width: 800px;
-
 }
 
 .bioHeader img {
   max-width: 230px;
   align-self: end;
-
-
 }
 
 
@@ -174,21 +154,6 @@ ul {
 
 .journeyHeader {
   min-height: 400px;
-
-
-}
-
-.headerJourneyContainer h2 {
-  font-size: 2.5rem;
-  line-height: 2.0;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  margin-bottom: 20px;
-}
-
-.headerJourneyContainer h2:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
 }
 
 .vertical-timeline-element--work h3 {
@@ -196,7 +161,6 @@ ul {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 0.99rem;
-
 }
 
 .vertical-timeline-element--work h4 {
@@ -208,7 +172,6 @@ ul {
 
 .vertical-timeline-element--work p {
   color: rgb(0, 0, 0);
-
 }
 
 .vertical-timeline-element--edu h3 {
@@ -229,21 +192,6 @@ ul {
 
 /* portfolio */
 
-.headerPortContainer h2 {
-  font-size: 2.5rem;
-  line-height: 2.0;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  margin-bottom: 20px;
-
-}
-
-.headerPortContainer h2:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
-
-}
-
 .boxes .container {
   display: flex;
   justify-content: space-between;
@@ -261,7 +209,6 @@ ul {
   /* line-height: 2.0; */
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-
 }
 
 .box img {
@@ -270,55 +217,19 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 
 /*contact*/
 
-
-
-.headerContactContainer h2 {
-  font-size: 2.5rem;
-  line-height: 2.0;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  margin-bottom: 20px;
-
-}
-
-.headerContactContainer h2:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
-
-}
-
-/* #contactContainer {
-  height: 200px;
-  background-color: rgb(247, 34, 34);
-
-} */
-
 .headerContact h2 {
-  font-size: 2.5rem;
   color: white;
-  /* line-height: 2.0; */
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  margin-bottom: 20px;
-}
-
-.headerContact h2:hover {
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
-
 }
 
 .contactContainer {
   /* height: 860px; */
   height: 1170px;
   background-color: rgb(0, 0, 0);
-
 }
 
 .contactContainer .container {
@@ -329,26 +240,19 @@ ul {
   font-family: 'Oswald', sans-serif;
   flex-direction: row-reverse;
   flex-wrap: wrap;
-
 }
-
-
 
 #firstNameBox,
 #lastNameBox,
 #emailBox,
 #textBBox {
   color: white;
-
 }
 
 .firstNameInput,
-
 .messageInput {
   margin-left: 10px;
-
   margin-bottom: 10px;
-
 }
 
 .lastNameInput {
@@ -363,9 +267,7 @@ ul {
 
 .messageInput {
   margin-left: 73px;
-  /* margin-bottom: 10px; */
 }
-
 
 /* @media(max-width: 768px){
 
