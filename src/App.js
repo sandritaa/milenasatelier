@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Bio from "./Bio";
 import Journey from "./Journey";
 import Portfolio from "./Portfolio";
-// import Contact from "./Contact";
+import Contact from "./Contact";
 
 function App() {
   // const title= 'sandra novi'
@@ -12,10 +12,9 @@ function App() {
       <Navbar />
       <div className="content"></div>
       <Bio />
-
       <Journey />
       <Portfolio />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }

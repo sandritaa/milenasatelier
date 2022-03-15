@@ -7,73 +7,114 @@ function Contact() {
   const emailRef = useRef(null);
   const messageRef = useRef(null);
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = {
-      firstName: firstNameRef.current.value,
-      lastName: lastNameRef.current.value,
-      email: emailRef.current.value,
-      message: messageRef.current.value,
-    };
-    alert("tadaaa!: \n" + JSON.stringify(data) + "Your data 😎");
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   const data = {
+  //     firstName: firstNameRef.current.value,
+  //     lastName: lastNameRef.current.value,
+  //     email: emailRef.current.value,
+  //     message: messageRef.current.value,
+  //   };
+  //   alert("tadaaa!: \n" + JSON.stringify(data) + "Your data 😎");
+  // };
+
+  function myFunction() {
+    alert("message successfully sent");
+    window.location.reload();
+  }
 
   return (
-    <footer className="footer" id="footer">
-      <div className="contact" id="Contact">
-        <h2 className="sectionTitle" id="contactTitle">
-          contact me
-        </h2>
-
-        <form onSubmit={handleSubmit} className="contactForm">
-          <div className="name">
-            <label for="firstName" id="nameLabel">
-              First Name
-            </label>
-            <input
-              type="text"
-              id="firstName"
-              name="firstName"
-              className="firstName"
-              ref={firstNameRef}
-              tabindex="1"
-            />
-
-            <label for="lastName">Last name</label>
-            <input
-              type="text"
-              id="lastName"
-              className="lastName"
-              ref={lastNameRef}
-              tabindex="2"
-            />
+    <body>
+      <nav className="contactContainer">
+        <div className="container">
+          <div className="headerContact">
+            <h2>contact me</h2>
           </div>
-          <label for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            className="email"
-            placeholder="example@corp.com"
-            ref={emailRef}
-            tabindex="3"
-          />
 
-          <label for="message">Message</label>
-          <textarea
-            placeholder="Start typing..."
-            className="message"
-            name="message"
-            ref={messageRef}
-          ></textarea>
-          <button type="submit" className="send">
-            Send
-          </button>
-        </form>
+          <div className="contactForm" id="ContactForm">
+            <div className="container" id="contactContainer">
+              <form
+                action="https://formsubmit.co/axel-porch0s@icloud.com"
+                method="POST"
+                onSubmit={myFunction}
+                // onSubmit={handleSubmit}
+                className="contactForm"
+              >
+                {/* <div className="name"> */}
 
-        <div className="invisibleElement"></div>
-      </div>
-    </footer>
+                <div id="firstNameBox">
+                  <label for="firstName" id="nameLabel">
+                    First Name
+                  </label>
+                  <input
+                    type="text"
+                    id="firstNameInput"
+                    name="firstName"
+                    className="firstNameInput"
+                    ref={firstNameRef}
+                    tabindex="1"
+                    required
+                  />
+                </div>
+
+                <div id="lastNameBox">
+                  <label for="lastName">Last name</label>
+                  <input
+                    type="text"
+                    id="lastNameInput"
+                    className="lastNameInput"
+                    ref={lastNameRef}
+                    tabindex="2"
+                    required
+                  />
+                </div>
+                <div id="emailBox">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="emailInput"
+                    className="emailInput"
+                    placeholder="example@corp.com"
+                    ref={emailRef}
+                    tabindex="3"
+                    required
+                  />
+                </div>
+                <div id="textBBox">
+                  <div>
+                    <label for="message">Message</label>{" "}
+                  </div>
+                  <textarea
+                    placeholder="Start typing..."
+                    className="messageInput"
+                    name="message"
+                    ref={messageRef}
+                    required
+                  ></textarea>
+                </div>
+                {/* <div className="thanksBox">
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://sandritaa.github.io/milenasatelier/thankyou.html"
+                  /> */}
+                {/* </div> */}
+                <div className="buttonBox">
+                  <button type="submit" className="send" onclick="myFunction()">
+                    Send
+                  </button>
+                </div>
+                {/* </form>
+              <div className="invisibleElement"></div> */}
+                {/* </div> */}
+                {/* </div>  */}
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </body>
   );
 }
 

@@ -2,7 +2,7 @@ import bioPic from "./portfolioIcons/pic.png";
 const Bio = () => {
   return (
     <body>
-      <div className="headerBioContainer">
+      <div className="headerBioContainer" id="Bio">
         <h2> bio </h2>
       </div>
       <section className="bioHeader">

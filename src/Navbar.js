@@ -1,5 +1,6 @@
 // import { Link } from "react-scroll";
 // import { useState } from "react/cjs/react.development";
+
 import React from "react";
 
 const Navbar = () => {
@@ -20,7 +21,7 @@ const Navbar = () => {
 
   return (
     <body>
-      <nav className="navbar sticky">
+      <nav className="navbar sticky" id="navbarGroup">
         <div class="container">
           <div class="logo">sandra novi</div>
 
@@ -41,7 +42,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#Contact" onClick={handleClick}>
+              <a href="#ContactForm" onClick={handleClick}>
                 Contact
               </a>
             </li>

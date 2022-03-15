@@ -23,7 +23,7 @@ import projectPic4 from "./portfolioIcons/img0.png";
 function Portfolio() {
   return (
     <body>
-      <div className="headerPortContainer">
+      <div className="headerPortContainer" id="Portfolio">
         <h2>Portfolio</h2>
       </div>
       <section className="boxes">
@@ -62,7 +62,7 @@ function Portfolio() {
               information and exchange the data with the back-end
             </p>
           </div>
-          <div className="box">
+          {/* <div className="box">
             <h3>delicias</h3>
             <br />
             <img src={projectPic4} alt="" />
@@ -71,7 +71,7 @@ function Portfolio() {
               Cooking recipe website whose UI was designed using Figma and user
               experience feedback
             </p>
-          </div>
+          </div> */}
         </div>
         {/* </div> */}
       </section>
