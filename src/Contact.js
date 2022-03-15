@@ -97,7 +97,7 @@ function Contact() {
                   <input
                     type="hidden"
                     name="_next"
-                    value="https://sandritaa.github.io/milenasatelier/"
+                    value="https://sandritaa.github.io/milenasatelier/index.html"
                   />
                 </div>
                 <div className="buttonBox">
