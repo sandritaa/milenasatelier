@@ -1,4 +1,4 @@
-import { Title } from "@material-ui/icons";
+// import { Title } from "@material-ui/icons";
 import React, { useRef } from "react";
 
 function Contact() {
@@ -44,7 +44,7 @@ function Contact() {
 
                 <div id="firstNameBox">
                   <label for="firstName" id="nameLabel">
-                    First Name
+                    First name
                   </label>
                   <input
                     type="text"

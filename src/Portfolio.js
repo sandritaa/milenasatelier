@@ -2,7 +2,7 @@ import * as React from "react";
 import projectPic1 from "./portfolioIcons/img1.png";
 import projectPic2 from "./portfolioIcons/img2.jpeg";
 import projectPic3 from "./portfolioIcons/img3.png";
-import projectPic4 from "./portfolioIcons/img0.png";
+// import projectPic4 from "./portfolioIcons/img0.png";
 // import { styled } from "@mui/material/styles";
 // import Grid from "@mui/material/Grid";
 // import Paper from "@mui/material/Paper";
