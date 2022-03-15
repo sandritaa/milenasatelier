@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.f8ea1f79.css",
-    "main.js": "/cv/static/js/main.e03fd22c.js",
-    "static/media/img0.png": "/cv/static/media/img0.7171e9bfc7ba43041512.png",
-    "static/media/pic.png": "/cv/static/media/pic.cc3c996407745f66c544.png",
-    "static/media/img2.jpeg": "/cv/static/media/img2.ab45dc2404c84e9308bf.jpeg",
-    "static/media/img3.png": "/cv/static/media/img3.828d4b1f80954b1c6806.png",
-    "static/media/img1.png": "/cv/static/media/img1.bb5396394f97d71b580a.png",
-    "index.html": "/cv/index.html",
-    "main.f8ea1f79.css.map": "/cv/static/css/main.f8ea1f79.css.map",
-    "main.e03fd22c.js.map": "/cv/static/js/main.e03fd22c.js.map"
+    "main.css": "/milenasatelier/static/css/main.f8ea1f79.css",
+    "main.js": "/milenasatelier/static/js/main.9bf624da.js",
+    "static/media/img0.png": "/milenasatelier/static/media/img0.7171e9bfc7ba43041512.png",
+    "static/media/pic.png": "/milenasatelier/static/media/pic.cc3c996407745f66c544.png",
+    "static/media/img2.jpeg": "/milenasatelier/static/media/img2.ab45dc2404c84e9308bf.jpeg",
+    "static/media/img3.png": "/milenasatelier/static/media/img3.828d4b1f80954b1c6806.png",
+    "static/media/img1.png": "/milenasatelier/static/media/img1.bb5396394f97d71b580a.png",
+    "index.html": "/milenasatelier/index.html",
+    "main.f8ea1f79.css.map": "/milenasatelier/static/css/main.f8ea1f79.css.map",
+    "main.9bf624da.js.map": "/milenasatelier/static/js/main.9bf624da.js.map"
   },
   "entrypoints": [
     "static/css/main.f8ea1f79.css",
-    "static/js/main.e03fd22c.js"
+    "static/js/main.9bf624da.js"
   ]
 }
