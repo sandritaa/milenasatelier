@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
 
 
-
+/* in common */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -59,6 +59,33 @@ ul {
   margin-bottom: 20px;
 }
 
+.headerBioContainer h2:hover,
+.headerJourneyContainer h2:hover,
+.headerPortContainer h2:hover,
+.headerContactContainer h2:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar .container,
+.contactContainer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-family: 'Oswald', sans-serif;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.navbar a:hover,
+.headerContact h2:hover {
+  color: black;
+  background-color: white;
+}
+
+
+
 /*navbar*/
 
 .navbar {
@@ -70,28 +97,12 @@ ul {
   top: 0;
 }
 
-.navbar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  font-family: 'Oswald', sans-serif;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-}
-
 .navbar .logo {
   font-size: 60px;
   font-weight: bold;
   color: white;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-}
-
-.navbar a:hover,
-.headerContact h2:hover {
-  color: black;
-  background-color: white;
 }
 
 .navbar ul {
@@ -124,13 +135,7 @@ ul {
   margin-top: 300px;
 }
 
-.headerBioContainer h2:hover,
-.headerJourneyContainer h2:hover,
-.headerPortContainer h2:hover,
-.headerContactContainer h2:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
-}
+
 
 .bioHeader .container {
   display: flex;
@@ -149,24 +154,26 @@ ul {
 }
 
 
-
 /*journey*/
 
 .journeyHeader {
   min-height: 400px;
 }
 
-.vertical-timeline-element--work h3 {
+.vertical-timeline-element--work h3,
+.vertical-timeline-element--work h4,
+.vertical-timeline-element--edu h3,
+.vertical-timeline-element--edu h4 {
   color: black;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
+}
+
+.vertical-timeline-element--work h3 {
   font-size: 0.99rem;
 }
 
 .vertical-timeline-element--work h4 {
-  color: black;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
   font-size: 0.8rem;
 }
 
@@ -175,20 +182,12 @@ ul {
 }
 
 .vertical-timeline-element--edu h3 {
-  color: black;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
   font-size: 0.99rem;
 }
 
 .vertical-timeline-element--edu h4 {
-  color: black;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
   font-size: 0.8rem;
 }
-
-
 
 /* portfolio */
 
@@ -230,16 +229,6 @@ ul {
   /* height: 860px; */
   height: 1170px;
   background-color: rgb(0, 0, 0);
-}
-
-.contactContainer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  font-family: 'Oswald', sans-serif;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
 }
 
 #firstNameBox,
