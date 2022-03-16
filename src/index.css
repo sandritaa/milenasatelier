@@ -33,12 +33,7 @@ ul {
   list-style-type: none;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
+.container,
 .headerPortContainer,
 .headerBioContainer,
 .headerJourneyContainer,
@@ -234,7 +229,7 @@ ul {
 #firstNameBox,
 #lastNameBox,
 #emailBox,
-#textBBox {
+#textBox {
   color: white;
 }
 
@@ -258,6 +253,114 @@ ul {
   margin-left: 73px;
 }
 
-/* @media(max-width: 768px){
+@media(max-width: 768px) {
 
-} */
+  /*in commmon*/
+  .headerBioContainer h2,
+  .headerJourneyContainer h2,
+  .headerPortContainer h2,
+  .headerContact h2 {
+    font-size: 2.0rem;
+  }
+
+
+  .navbar .container,
+  .contactContainer .container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+  /* navbar */
+
+  .navbar .logo {
+    font-size: 3.0rem;
+  }
+
+  .navbar li {
+    margin-left: -3px;
+  }
+
+  .navbar ul {
+    margin-right: -30px;
+  }
+
+  .navbar a {
+    font-size: 1.3rem;
+  }
+
+  /* bio */
+
+  .headerBioContainer h2 {
+    margin-top: 250px;
+    margin-bottom: 50px;
+  }
+
+  .bioHeader .container {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .bioHeader p {
+    margin-bottom: 50px;
+  }
+
+  .bioHeader img {
+    max-width: 130px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+  }
+
+
+  /* journey */
+  .journeyHeader {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* portfolio */
+
+  .headerPortContainer h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .boxes .container {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* contact  */
+
+  .headerContact h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .contactContainer .container {
+    display: block;
+  }
+
+  .contactContainer {
+    height: 500px;
+
+  }
+
+  .messageInput {
+    margin-left: 100px;
+    margin-top: -20px;
+  }
+
+  #labelText {
+    margin-left: -160px;
+    margin-top: -2px;
+  }
+
+  .buttonBox {
+    margin-left: 50px;
+  }
+}

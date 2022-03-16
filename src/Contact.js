@@ -81,8 +81,8 @@ function Contact() {
                     required
                   />
                 </div>
-                <div id="textBBox">
-                  <div>
+                <div id="textBox">
+                  <div id="labelText">
                     <label for="message">Message</label>{" "}
                   </div>
                   <textarea
