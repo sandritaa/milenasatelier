@@ -398,3 +398,16 @@ ul {
     margin-bottom: 50px;
   }
 }
+
+@media(max-width: 390px) {
+  .contactContainer {
+    height: 660px;
+
+  }
+
+  .bioHeader img {
+    max-width: 150px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+  }
+}
