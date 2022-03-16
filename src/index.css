@@ -364,3 +364,37 @@ ul {
     margin-left: 50px;
   }
 }
+
+@media(max-width: 414px) {
+  .contactContainer {
+    height: 700px;
+
+  }
+}
+
+@media(max-width: 1024px) {
+  .contactContainer {
+    height: 860px;
+
+  }
+
+  .bioHeader img {
+    max-width: 130px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+  }
+}
+
+
+@media(max-width: 1368px) {
+  .contactContainer {
+    height: 1190px;
+
+  }
+
+  .bioHeader img {
+    max-width: 230px;
+    margin-right: 250px;
+    margin-bottom: 50px;
+  }
+}
