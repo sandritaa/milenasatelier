@@ -24,7 +24,7 @@ function Contact() {
   }
 
   return (
-    <body>
+    <body className="contactBody">
       <nav className="contactContainer">
         <div className="container">
           <div className="headerContact">
@@ -75,7 +75,7 @@ function Contact() {
                     name="email"
                     id="emailInput"
                     className="emailInput"
-                    placeholder="example@corp.com"
+                    // placeholder="example@corp.com"
                     ref={emailRef}
                     tabindex="3"
                     required
@@ -83,16 +83,19 @@ function Contact() {
                 </div>
                 <div id="textBox">
                   <div id="labelText">
-                    <label for="message">Message</label>{" "}
+                    <label for="message" id="txtLabel">
+                      Message
+                    </label>{" "}
+                    <textarea
+                      placeholder="Start typing..."
+                      className="messageInput"
+                      name="message"
+                      ref={messageRef}
+                      required
+                    ></textarea>
                   </div>
-                  <textarea
-                    placeholder="Start typing..."
-                    className="messageInput"
-                    name="message"
-                    ref={messageRef}
-                    required
-                  ></textarea>
                 </div>
+
                 <div className="returnBox">
                   <input
                     type="hidden"
@@ -101,7 +104,12 @@ function Contact() {
                   />
                 </div>
                 <div className="buttonBox">
-                  <button type="submit" className="send" onclick="myFunction()">
+                  <button
+                    type="submit"
+                    className="send"
+                    onclick="myFunction()"
+                    id="button"
+                  >
                     Send
                   </button>
                 </div>
@@ -114,6 +122,7 @@ function Contact() {
           </div>
         </div>
       </nav>
+      <footer className="footer">by: sandra novi</footer>
     </body>
   );
 }

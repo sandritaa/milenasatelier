@@ -12,7 +12,7 @@ import Grid from "@mui/material/Grid";
 
 const Journey = () => {
   return (
-    <body>
+    <body className="journeyBody">
       <div className="headerJourneyContainer" id="Journey">
         {" "}
         <div>

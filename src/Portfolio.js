@@ -22,7 +22,7 @@ import projectPic3 from "./portfolioIcons/img3.png";
 
 function Portfolio() {
   return (
-    <body>
+    <body className="portfolioBody">
       <div className="headerPortContainer" id="Portfolio">
         <h2>Portfolio</h2>
       </div>

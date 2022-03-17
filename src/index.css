@@ -33,6 +33,7 @@ ul {
   list-style-type: none;
 }
 
+/* containers */
 .container,
 .headerPortContainer,
 .headerBioContainer,
@@ -43,6 +44,7 @@ ul {
   padding: 0 30px;
 }
 
+/* h2 headers */
 .headerBioContainer h2,
 .headerJourneyContainer h2,
 .headerPortContainer h2,
@@ -51,15 +53,22 @@ ul {
   line-height: 2.0;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
+/* h2 hover */
 .headerBioContainer h2:hover,
 .headerJourneyContainer h2:hover,
 .headerPortContainer h2:hover,
 .headerContactContainer h2:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
+}
+
+.bioBody,
+.journeyBody,
+.portfolioBody {
+  margin-bottom: 100px;
 }
 
 .navbar .container,
@@ -78,8 +87,6 @@ ul {
   color: black;
   background-color: white;
 }
-
-
 
 /*navbar*/
 
@@ -108,7 +115,7 @@ ul {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 1.7rem;
 }
 
 .navbar ul li {
@@ -117,20 +124,9 @@ ul {
 
 /* bio */
 
-.bioHeader {
-  min-height: 400px;
-  margin-top: 20px;
-}
-
-.headerBioContainer {
-  margin-top: 50px;
-}
-
-.headerBioContainer h2 {
+.bioBody {
   margin-top: 300px;
 }
-
-
 
 .bioHeader .container {
   display: flex;
@@ -138,21 +134,19 @@ ul {
   justify-content: space-between;
 }
 
-
 .bioHeader p {
   max-width: 800px;
 }
 
 .bioHeader img {
   max-width: 230px;
-  align-self: end;
 }
-
 
 /*journey*/
 
-.journeyHeader {
-  min-height: 400px;
+.journeybody {
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .vertical-timeline-element--work h3,
@@ -213,7 +207,6 @@ ul {
   margin-right: auto;
 }
 
-
 /*contact*/
 
 .headerContact h2 {
@@ -226,56 +219,101 @@ ul {
   background-color: rgb(0, 0, 0);
 }
 
+.contactForm {
+  display: flex;
+  flex-direction: column;
+}
+
 #firstNameBox,
 #lastNameBox,
 #emailBox,
 #textBox {
   color: white;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
 }
 
-.firstNameInput,
-.messageInput {
-  margin-left: 10px;
+.firstNameInput {
+  margin-left: 24px;
   margin-bottom: 10px;
 }
 
 .lastNameInput {
-  margin-left: 12px;
+  margin-left: 30px;
   margin-bottom: 10px;
 }
 
 .emailInput {
-  margin-left: 40px;
+  margin-left: 72px;
   margin-bottom: 13px;
 }
 
 .messageInput {
-  margin-left: 73px;
+  margin-left: 43px;
 }
 
-@media(max-width: 768px) {
+#txtLabel {
+  float: left;
+}
 
-  /*in commmon*/
-  .headerBioContainer h2,
+.buttonBox .send {
+  float: left;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 30px;
+  cursor: pointer;
+  min-width: 80px;
+}
+
+
+button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(254, 254, 254);
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* @media(max-width: 768px) {
+
+  .bioHeader .container {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  } */
+
+
+/*in commmon*/
+/* .headerBioContainer h2,
   .headerJourneyContainer h2,
   .headerPortContainer h2,
   .headerContact h2 {
     font-size: 2.0rem;
-  }
+  } */
 
 
-  .navbar .container,
+/* .navbar .container,
   .contactContainer .container {
     flex-direction: column;
     padding: 20px;
     text-align: center;
   }
+ */
 
 
+/* navbar */
 
-  /* navbar */
-
-  .navbar .logo {
+/* .navbar .logo {
     font-size: 3.0rem;
   }
 
@@ -289,19 +327,15 @@ ul {
 
   .navbar a {
     font-size: 1.3rem;
-  }
+  } */
 
-  /* bio */
+/* bio */
 
-  .headerBioContainer h2 {
+/* .headerBioContainer h2 {
     margin-top: 250px;
     margin-bottom: 50px;
   }
 
-  .bioHeader .container {
-    flex-direction: column;
-    flex-direction: column-reverse;
-  }
 
   .bioHeader p {
     margin-bottom: 50px;
@@ -312,18 +346,18 @@ ul {
     margin-right: 90px;
     margin-bottom: 50px;
   }
+ */
 
-
-  /* journey */
-  .journeyHeader {
+/* journey */
+/* .journeyHeader {
 
     margin-top: 50px;
     margin-bottom: 50px;
-  }
+  } */
 
-  /* portfolio */
+/* portfolio */
 
-  .headerPortContainer h2 {
+/* .headerPortContainer h2 {
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -332,11 +366,11 @@ ul {
     display: block;
     margin-top: 50px;
     margin-bottom: 50px;
-  }
+  } */
 
-  /* contact  */
+/* contact  */
 
-  .headerContact h2 {
+/* .headerContact h2 {
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -356,15 +390,17 @@ ul {
   }
 
   #labelText {
-    margin-left: -160px;
+    margin-left: -162px;
     margin-top: -2px;
   }
 
   .buttonBox {
     margin-left: 50px;
-  }
-}
+  }*/
+/* } */
 
+
+/* 
 @media(max-width: 414px) {
   .contactContainer {
     height: 700px;
@@ -411,3 +447,17 @@ ul {
     margin-bottom: 50px;
   }
 }
+
+@media(max-width: 1180px) {
+  .contactContainer {
+    height: 990px;
+
+  }
+
+  .bioHeader img {
+    max-width: 190px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 85px;
+  }
+} */
