@@ -1,14 +1,5 @@
 import WorkIcon from "@material-ui/icons/WorkOutline";
 import UniIcon from "@material-ui/icons/SchoolOutlined";
-// import CompImg0 from "./careerIcons/logo0.png";
-// import CompImg1 from "./careerIcons/logo1.png";
-// import CompImg2 from "./careerIcons/logo2.png";
-// import CompImg3 from "./careerIcons/logo3.png";
-// import CompImg4 from "./careerIcons/logo4.png";
-// import ColImg0 from "./uniIcons/logo0.png";
-// import ColImg1 from "./uniIcons/logo1.png";
-// import ColImg2 from "./uniIcons/logo2.png";
-// import ColImg3 from "./uniIcons/logo3.png";
 
 //experince info
 
@@ -21,15 +12,10 @@ experienceData[0] = {
   Location: "Fremont, CA",
   Date: "Aug. 2021 — Present",
   Description:
-    "▪ Teach and introduce children ages 6 - 14 to code using JavaScript and Scratch",
+    "▪ Lead a team of over 10 instructors through daily operations and report weekly to the executive team",
   Description1:
-    "▪ Oversee daily operations while following up with leads, schedule tours and close new client contract deals",
+    "▪ Maintain high quality standards of the instructors, organize technical content and engage with potential new customers",
   Icon: <WorkIcon />,
-  // Pic: { lll },
-  // Image: CompImg0,
-
-  // City: "Fremont",
-  // State: "CA",
 };
 
 experienceData[1] = {
@@ -41,13 +27,8 @@ experienceData[1] = {
   Description:
     "▪ Teach and introduce children ages 6 - 14 to code using JavaScript and Scratch",
   Description1:
-    "▪ Oversee daily operations while following up with leads, schedule tours and close new client contract deals",
+    "▪ Provide contructive feedback and build strong relationships with new and previous clients to maintain a high quality standard of teaching ",
   Icon: <WorkIcon />,
-  // Pic: { lll },
-  // Image: CompImg0,
-
-  // City: "Fremont",
-  // State: "CA",
 };
 experienceData[2] = {
   id: "experienceData2",
@@ -62,9 +43,6 @@ experienceData[2] = {
   Description2:
     "▪ Design the web app mockup with Figma and work with business partners on improving the user experience of the app",
   Icon: <WorkIcon />,
-  // Image: CompImg1,
-  // City: "Mountain View",
-  // State: "CA",
 };
 
 experienceData[3] = {
@@ -81,9 +59,6 @@ experienceData[3] = {
   Description2:
     "▪ Worked closely with cross-functional partners to spearhead and improve direct e-commerce customer service which resulted in a 70% growth in sales and helped us reach our sales goal during the covid-19 pandemic",
   Icon: <WorkIcon />,
-  // Image: CompImg2,
-  // City: "London",
-  // State: "UK",
 };
 
 experienceData[4] = {
@@ -101,9 +76,6 @@ experienceData[4] = {
   Description3:
     "▪ Maintained seasonal cost sheets, provided cost options for merchants to help meet margin requirements, as well as hold design integrity",
   Icon: <WorkIcon />,
-  // Image: CompImg3,
-  // City: "New York City",
-  // State: "NY",
 };
 
 experienceData[5] = {
@@ -119,9 +91,6 @@ experienceData[5] = {
   Description2:
     "▪ Prepared product information (cost, suggested retail price, colors, style information, etc.) and confirmed all market orders with buyers and Account Executives",
   Icon: <WorkIcon />,
-  // Image: CompImg4,
-  // City: "New York City",
-  // State: "NY",
 };
 
 //education info
@@ -136,9 +105,6 @@ educationData[0] = {
   Major: "Front End Web Development",
   Date: "Jun. 2021",
   Icon: <UniIcon />,
-  // Image: ColImg0,
-  // City: "Mountain View",
-  // State: "CA",
 };
 
 educationData[1] = {
@@ -150,9 +116,6 @@ educationData[1] = {
   Honors: "Magna Cum Laude",
   Date: "Dec. 2015",
   Icon: <UniIcon />,
-  // Image: ColImg1,
-  // City: "New York City",
-  // State: "NY",
 };
 
 educationData[2] = {
@@ -164,9 +127,6 @@ educationData[2] = {
   Honors: "Study Abroad",
   Date: "May 2015",
   Icon: <UniIcon />,
-  // Image: ColImg2,
-  // City: "Florence",
-  // State: "Italy",
 };
 
 educationData[3] = {
@@ -178,7 +138,4 @@ educationData[3] = {
   Honors: "Magna Cum Laude",
   Date: "May 2013",
   Icon: <UniIcon />,
-  // Image: ColImg3,
-  // City: "Garden City",
-  // State: "NY",
 };
