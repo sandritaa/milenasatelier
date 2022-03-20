@@ -349,7 +349,7 @@ footer {
   .buttonBox .send {
     font-size: 1.2rem;
     min-width: 70px;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
 
 }
@@ -436,7 +436,7 @@ footer {
 
   .buttonBox .send {
     font-size: .8rem;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
   }
 
 
@@ -524,7 +524,7 @@ footer {
 
   .buttonBox .send {
     font-size: .8rem;
-    background-color: rgb(226, 43, 217);
+    /* background-color: rgb(226, 43, 217); */
   }
 
 
