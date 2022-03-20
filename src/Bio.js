@@ -12,19 +12,13 @@ const Bio = () => {
           {/* <div id="imgTextContainer"> */}
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
-            sapiente, obcaecati nemo fugit id, odio non nesciunt suscipit ipsum
-            officiis numquam accusantium quae perferendis quisquam?
-            Exercitationem, non? Reprehenderit, ad maxime! Lorem, ipsum dolor
-            sit amet consectetur adipisicing elit. Aperiam eos distinctio unde!
-            Obcaecati molestias inventore, aspernatur necessitatibus, sunt
-            incidunt nisi non laborum laboriosam ipsum voluptates quisquam quo
-            nihil quas fugiat! Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Excepturi impedit, expedita inventore repudiandae,
-            earum in maxime accusamus quam vel eligendi nobis est nihil facilis
-            illum ab incidunt ullam vitae perferendis. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dolor porro assumenda voluptas
-            labore, nam nulla architecto in quaerat ex sequi.
+            Creative and product driven Front End Developer located in the Bay
+            Area. Previously based in Medellin (Colombia), New York City and
+            London (UK) working on developing products throughout the entire
+            life cycle with a focus on handling multiple accounts, liaising with
+            logistics and improving user experience. Currently working on
+            developing innovative digital products using web technologies such
+            as Figma, React.js and Vue.js
           </p>
           <img src={bioPic} alt="" />
         </div>

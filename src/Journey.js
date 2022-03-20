@@ -38,6 +38,7 @@ const Journey = () => {
                   contentArrowStyle={{
                     borderRight: "7px solid  rgb(97, 97, 97)",
                   }}
+                  dateClassName={"dateWork"}
                   date={Data.Date}
                   iconStyle={{
                     background: "#ffffff",
@@ -87,6 +88,7 @@ const Journey = () => {
                   contentArrowStyle={{
                     borderRight: "7px solid  rgb(97, 97, 97)",
                   }}
+                  dateClassName={"dateEdu"}
                   date={edData.Date}
                   iconStyle={{
                     background: "#ffffff",
