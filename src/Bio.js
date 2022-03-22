@@ -13,12 +13,11 @@ const Bio = () => {
 
           <p>
             Creative and product driven Front End Developer located in the Bay
-            Area. Previously based in Medellin (Colombia), New York City and
-            London (UK) working on developing products throughout the entire
-            life cycle with a focus on handling multiple accounts, liaising with
-            logistics and improving user experience. Currently working on
-            developing innovative digital products using web technologies such
-            as Figma, React.js and Vue.js
+            Area. Previously based in New York City and London working on
+            developing products throughout the entire life cycle with a focus on
+            handling multiple accounts, liaising with logistics and improving
+            user experience. Currently working on developing innovative digital
+            products using web technologies such as Figma, React.js and Vue.js
           </p>
           <img src={bioPic} alt="" />
         </div>

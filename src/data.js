@@ -11,10 +11,11 @@ experienceData[0] = {
   Title: "Head Instructor",
   Location: "Fremont, CA",
   Date: "Aug. 2021 — Present",
-  Description:
-    "▪ Lead a team of over 10 instructors through daily operations and report weekly to the executive team",
+  Description: "▪ Lead a team of 10 instructors through daily operations",
   Description1:
-    "▪ Maintain high quality standards of the instructors, organize technical content and engage with potential new customers",
+    "▪ Prioritize and plan weekly strategies for the instructors to ensure the delivery of a complete customer experience",
+  Description2:
+    "▪ Work with cross-functional partners to identify gaps or inconsistencies in order to optimize processes and workflows",
   Icon: <WorkIcon />,
 };
 
@@ -25,9 +26,9 @@ experienceData[1] = {
   Location: "Fremont, CA",
   Date: "Aug. 2021 — Mar. 2022",
   Description:
-    "▪ Teach and introduce children ages 6 - 14 to code using JavaScript and Scratch",
+    "▪ Taught and introduced children ages 6 - 14 to code using JavaScript and Scratch",
   Description1:
-    "▪ Provide contructive feedback and build strong relationships with new and previous clients to maintain a high quality standard of teaching ",
+    "▪ Organized technical content, provided constructive feedback to students and helped to close new client contract deals ",
   Icon: <WorkIcon />,
 };
 experienceData[2] = {
