@@ -6,7 +6,7 @@ import UniIcon from "@material-ui/icons/SchoolOutlined";
 export const experienceData = [];
 
 experienceData[0] = {
-  id: "experienceData1",
+  id: "experienceData0",
   Company: "Code Ninjas",
   Title: "Head Instructor",
   Location: "Fremont, CA",
