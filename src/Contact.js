@@ -122,7 +122,8 @@ function Contact() {
           </div>
         </div>
       </nav>
-      <footer className="footer">by: sandra novi</footer>
+      {/* <footer className="footer">by: sandra novi</footer> */}
+      <footer className="footer">by: sandra garcia</footer>
     </body>
   );
 }
