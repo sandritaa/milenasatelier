@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/milenasatelier/static/css/main.3b92f3a5.css",
-    "main.js": "/milenasatelier/static/js/main.fe98bdce.js",
+    "main.js": "/milenasatelier/static/js/main.7a853f69.js",
     "static/media/pic.png": "/milenasatelier/static/media/pic.cc3c996407745f66c544.png",
     "static/media/img2.jpeg": "/milenasatelier/static/media/img2.ab45dc2404c84e9308bf.jpeg",
     "static/media/img3.png": "/milenasatelier/static/media/img3.828d4b1f80954b1c6806.png",
     "static/media/img1.png": "/milenasatelier/static/media/img1.bb5396394f97d71b580a.png",
     "index.html": "/milenasatelier/index.html",
     "main.3b92f3a5.css.map": "/milenasatelier/static/css/main.3b92f3a5.css.map",
-    "main.fe98bdce.js.map": "/milenasatelier/static/js/main.fe98bdce.js.map"
+    "main.7a853f69.js.map": "/milenasatelier/static/js/main.7a853f69.js.map"
   },
   "entrypoints": [
     "static/css/main.3b92f3a5.css",
-    "static/js/main.fe98bdce.js"
+    "static/js/main.7a853f69.js"
   ]
 }
