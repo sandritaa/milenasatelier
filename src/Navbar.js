@@ -23,7 +23,6 @@ const Navbar = () => {
     <body>
       <nav className="navbar sticky" id="navbarGroup">
         <div class="container">
-          {/* <div class="logo">sandra novi</div> */}
           <div class="logo">sandra garcia</div>
 
           <ul className="navLinks-item">
