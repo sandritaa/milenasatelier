@@ -7,7 +7,6 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
 function App() {
-  // const title= 'sandra novi'
   return (
     <div className="App">
       <Navbar />
