@@ -11,9 +11,10 @@ experienceData[0] = {
   Title: "Head Instructor",
   Location: "Fremont, CA",
   Date: "Aug. 2021 — Present",
-  Description: "▪ Lead a team of 10 instructors through daily operations",
+  Description:
+    "▪ Lead a team of 10 instructors through daily operations and communicate team progress to leadership",
   Description1:
-    "▪ Prioritize and plan weekly strategies for the instructors to ensure the delivery of a complete customer experience",
+    "▪ Prioritize and plan weekly strategies for the instructors to ensure the delivery of a complete and high quality customer experience",
   Description2:
     "▪ Work with cross-functional partners to identify gaps or inconsistencies in order to optimize processes and workflows",
   Icon: <WorkIcon />,
@@ -58,7 +59,7 @@ experienceData[3] = {
   Description1:
     "▪ Helped recover over 30% of accumulated debt from previous years by building stronger relationships with wholesale accounts",
   Description2:
-    "▪ Worked closely with cross-functional partners to spearhead and improve direct e-commerce customer service which resulted in a 70% growth in sales and helped us reach our sales goal during the covid-19 pandemic",
+    "▪ Worked closely with cross-functional teams to improve the e-commerce customer experience which resulted in a 70% sales increase",
   Icon: <WorkIcon />,
 };
 
@@ -69,11 +70,11 @@ experienceData[4] = {
   Location: "New York City, NY",
   Date: "Nov. 2017 — Jul. 2019",
   Description:
-    "▪ Responsible for the product development process from initial design concept to commercialization",
+    "▪ Responsible for the product development process from initial design concept to commercialization while meeting tight deadlines",
   Description1:
     "▪ Built strong relationships with over 10 domestic and overseas service providers through daily communication and problem-solving in order to maintain quality control and on-time delivery for an average of 40 styles a season",
   Description2:
-    "▪ Managed two separate product timelines while working on multiple work flows that depended on each other",
+    "▪ Managed two separate product timelines and roadmaps while working on multiple work flows that depended on each other",
   Description3:
     "▪ Maintained seasonal cost sheets, provided cost options for merchants to help meet margin requirements, as well as hold design integrity",
   Icon: <WorkIcon />,
@@ -86,9 +87,9 @@ experienceData[5] = {
   Location: "New York City, NY",
   Date: "Mar. 2017 — Nov. 2017",
   Description:
-    "▪ Served as primary wholesale liaison between Account Executives and Logistics ",
+    "▪ Served as primary wholesale liaison between Account Executives and Logistics while effectively managing multiple priorities in a fast-paced and deadline-driven environment ",
   Description1:
-    "▪ Worked with all cross-functional teams to ensure timely and proactive follow-through of samples, market orders and linesheets",
+    "▪ Worked with Italian and domestic cross-functional teams to ensure timely and proactive flow-through of samples, market orders and linesheets",
   Description2:
     "▪ Prepared product information (cost, suggested retail price, colors, style information, etc.) and confirmed all market orders with buyers and Account Executives",
   Icon: <WorkIcon />,
