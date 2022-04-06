@@ -12,7 +12,7 @@ experienceData[0] = {
   Location: "Fremont, CA",
   Date: "Aug. 2021 — Present",
   Description:
-    "▪ Lead a team of 10 instructors through daily operations and communicate team progress to leadership",
+    "▪ Lead a team of 10 instructors through daily operations and communicate progress to leadership",
   Description1:
     "▪ Prioritize and plan weekly strategies for the instructors to ensure the delivery of a complete and high quality customer experience",
   Description2:
