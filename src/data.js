@@ -66,7 +66,7 @@ experienceData[3] = {
 experienceData[4] = {
   id: "experienceData4",
   Company: "Coach",
-  Title: "Product Developement and Production Coordinator",
+  Title: "Product Development and Production Coordinator",
   Location: "New York City, NY",
   Date: "Nov. 2017 — Jul. 2019",
   Description:
