@@ -39,7 +39,7 @@ experienceData[2] = {
   Location: "Mountain View, CA",
   Date: "Jun. 2021 — Present",
   Description:
-    "▪ Collaborate with front-end and back-end developers from GitHub and Stanford to develop an app that aidsVenezuelan refugees",
+    "▪ Collaborate with front-end and back-end developers from GitHub and Stanford to develop an app that aids Venezuelan refugees",
   Description1:
     "▪ Develop the front-end of the web app using Vue.js, collect user input information and exchange the data with the back-end",
   Description2:
@@ -55,7 +55,7 @@ experienceData[3] = {
   Location: "London, UK",
   Date: "Dec. 2019 — Sept. 2020",
   Description:
-    "▪ Oversaw orders and logistics from start to finish for over 20 wholesale accounts which resulted in a 15% growth of our sales",
+    "▪ Oversaw orders and logistics from start to finish for over 20 accounts which resulted in 25% sales growth for wholesale",
   Description1:
     "▪ Responsible for tracking KPIs to identify gaps or inconsistencies in order to optimize processes and workflows for efficiency",
   Description2:
