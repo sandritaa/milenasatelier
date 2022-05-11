@@ -12,11 +12,11 @@ experienceData[0] = {
   Location: "Fremont, CA",
   Date: "Aug. 2021 — Present",
   Description:
-    "▪ Lead a team of 10 instructors through daily operations and communicate progress to leadership",
+    "▪ Lead a team of 10+ instructors through daily operations and communicate progress to leadership",
   Description1:
     "▪ Prioritize and plan weekly strategies for the instructors to ensure the delivery of a complete and high quality customer experience",
   Description2:
-    "▪ Work with cross-functional partners to identify gaps or inconsistencies in order to optimize processes and workflows",
+    "▪ Manage technical program and operations based on student progress reports, instructors performance score and account retention rate",
   Icon: <WorkIcon />,
 };
 
@@ -27,15 +27,15 @@ experienceData[1] = {
   Location: "Fremont, CA",
   Date: "Aug. 2021 — Mar. 2022",
   Description:
-    "▪ Taught and introduced children ages 6 - 14 to code using JavaScript and Scratch",
+    "▪ Taught and introduced children ages 6 - 14 to code using JavaScript, HTML, CSS and Scratch",
   Description1:
-    "▪ Organized technical content, provided constructive feedback to students and helped to close new client contract deals ",
+    "▪ Helped to close new client contract deals, put together and organized technical content",
   Icon: <WorkIcon />,
 };
 experienceData[2] = {
   id: "experienceData2",
   Company: "RedSol",
-  Title: "Web App Developer",
+  Title: "Software Developer",
   Location: "Mountain View, CA",
   Date: "Jun. 2021 — Present",
   Description:
@@ -57,7 +57,7 @@ experienceData[3] = {
   Description:
     "▪ Oversaw orders and logistics from start to finish for over 20 wholesale accounts which resulted in a 15% growth of our sales",
   Description1:
-    "▪ Helped recover over 30% of accumulated debt from previous years by building stronger relationships with wholesale accounts",
+    "▪ Responsible for tracking KPIs to identify gaps or inconsistencies in order to optimize processes and workflows for efficiency",
   Description2:
     "▪ Worked closely with cross-functional teams to improve the e-commerce customer experience which resulted in a 70% sales increase",
   Icon: <WorkIcon />,
