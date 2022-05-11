@@ -76,7 +76,7 @@ experienceData[4] = {
   Description2:
     "▪ Managed two separate product timelines and roadmaps while working on multiple work flows that depended on each other",
   Description3:
-    "▪ Maintained seasonal cost sheets, provided cost options for merchants to help meet margin requirements, as well as hold design integrity",
+    "▪ Maintained seasonal cost sheets and provided cost options for merchants in order to help meet margin requirements, as well as hold design integrity",
   Icon: <WorkIcon />,
 };
 
