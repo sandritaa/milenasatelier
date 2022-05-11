@@ -29,7 +29,7 @@ experienceData[1] = {
   Description:
     "▪ Taught and introduced children ages 6 - 14 to code using JavaScript, HTML, CSS and Scratch",
   Description1:
-    "▪ Helped to close new client contract deals, put together and organized technical content",
+    "▪ Helped convert leads into customers by closing new contract deals, put together and organized technical content",
   Icon: <WorkIcon />,
 };
 experienceData[2] = {
