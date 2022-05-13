@@ -55,7 +55,7 @@ experienceData[3] = {
   Location: "London, UK",
   Date: "Dec. 2019 — Sept. 2020",
   Description:
-    "▪ Oversaw orders and logistics from start to finish for over 20 accounts which resulted in 25% sales growth for wholesale",
+    "▪ Oversaw orders and logistics from start to finish for over 20 accounts which resulted in 17% sales growth for wholesale",
   Description1:
     "▪ Responsible for tracking KPIs to identify gaps or inconsistencies in order to optimize processes and workflows for efficiency",
   Description2:
