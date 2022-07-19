@@ -123,6 +123,9 @@ function Contact() {
         </div>
       </nav>
       {/* <footer className="footer">by: sandra novi</footer> */}
+      <div className="nameContact">
+        <h2>sandra novi</h2>
+      </div>
       <footer className="footer">by: sandra novi</footer>
     </body>
   );
