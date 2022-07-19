@@ -53,7 +53,7 @@ experienceData[2] = {
 
 experienceData[3] = {
   id: "experienceData3",
-  Company: "Wyse. Limited",
+  Company: "Wyse Limited",
   Title: "Wholesale Account Executive",
   Location: "London, UK",
   Date: "Dec. 2019 — Sept. 2020",
