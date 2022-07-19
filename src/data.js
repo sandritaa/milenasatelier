@@ -17,19 +17,25 @@ experienceData[0] = {
     "▪ Prioritize and plan weekly strategies for the instructors to ensure the delivery of a complete and high quality customer experience",
   Description2:
     "▪ Manage technical program and operations based on student progress reports, instructors performance score and account retention rate",
+  Description3:
+    "▪ Teach and introduce children ages 6 - 14 to code using JavaScript, HTML, CSS and Scratch",
   Icon: <WorkIcon />,
 };
 
 experienceData[1] = {
   id: "experienceData1",
-  Company: "Code Ninjas",
-  Title: "Coding Instructor",
-  Location: "Fremont, CA",
-  Date: "Aug. 2021 — Mar. 2022",
+  Company: "RedSol",
+  Title: "Associate Product Manager",
+  Location: "Mountain View, CA",
+  Date: "May 2022 — Present",
   Description:
-    "▪ Taught and introduced children ages 6 - 14 to code using JavaScript, HTML, CSS and Scratch",
+    "▪ Lead Engineering using Agile to develop our web application which provides service to immigrants impacted by the diaspora in Venezuela",
   Description1:
-    "▪ Helped convert leads into customers by closing new contract deals",
+    "▪ Design mockups and UI with Figma. Incorporate user feedback into application to improve the user experience",
+  Description2:
+    "▪ Define opportunities for our applications based on quantitative and qualitative market analysis",
+  Description3:
+    "▪ Translate user feedback to developers and prioritized product backlog based on business needs",
   Icon: <WorkIcon />,
 };
 experienceData[2] = {
@@ -37,20 +43,17 @@ experienceData[2] = {
   Company: "RedSol",
   Title: "Software Developer",
   Location: "Mountain View, CA",
-  Date: "Jun. 2021 — Present",
+  Date: "Jun. 2021 — May 2022",
   Description:
-    "▪ Collaborate with front-end and back-end developers from GitHub and Stanford to develop an app that aids Venezuelan refugees",
+    "▪ Collaborated with front-end and back-end developers from GitHub and Stanford to develop an app that aids Venezuelan refugees",
   Description1:
-    "▪ Develop the front-end of the web app using Vue.js, collect user input information and exchange the data with the back-end",
-  Description2:
-    "▪ Design the web app mockup with Figma and work with business partners on improving the user experience of the app",
+    "▪ Developed the front-end of the web app using Vue.js, collected user input information and exchanged the data with the back-end",
   Icon: <WorkIcon />,
 };
 
 experienceData[3] = {
   id: "experienceData3",
   Company: "Wyse. Limited",
-
   Title: "Wholesale Account Executive",
   Location: "London, UK",
   Date: "Dec. 2019 — Sept. 2020",
