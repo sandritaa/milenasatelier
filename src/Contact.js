@@ -30,6 +30,9 @@ function Contact() {
           <div className="headerContact">
             <h2>contact me</h2>
           </div>
+          <div className="nameContact">
+            <h2>sandra novi</h2>
+          </div>
 
           <div className="contactForm" id="ContactForm">
             <div className="container" id="contactContainer">
@@ -123,9 +126,7 @@ function Contact() {
         </div>
       </nav>
       {/* <footer className="footer">by: sandra novi</footer> */}
-      <div className="nameContact">
-        <h2>sandra novi</h2>
-      </div>
+
       <footer className="footer">by: sandra novi</footer>
     </body>
   );
