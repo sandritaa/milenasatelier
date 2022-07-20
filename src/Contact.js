@@ -30,9 +30,9 @@ function Contact() {
           <div className="headerContact">
             <h2>contact me</h2>
           </div>
-          <div className="nameContact">
+          {/* <div className="nameContact">
             <h2>sandra novi</h2>
-          </div>
+          </div> */}
 
           <div className="contactForm" id="ContactForm">
             <div className="container" id="contactContainer">
