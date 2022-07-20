@@ -111,7 +111,7 @@ ul {
 
 .navbar ul {
   display: flex;
-  padding-left: 60px;
+  padding-left: -10px;
 }
 
 .navbar a {
