@@ -111,6 +111,7 @@ ul {
 
 .navbar ul {
   display: flex;
+  left: 40px;
 }
 
 .navbar a {
