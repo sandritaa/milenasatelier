@@ -127,7 +127,7 @@ function Contact() {
       </nav>
       {/* <footer className="footer">by: sandra novi</footer> */}
 
-      <footer className="footer">by: sandra novi</footer>
+      <footer className="footer">by: sandra milena</footer>
     </body>
   );
 }
