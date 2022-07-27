@@ -1,6 +1,6 @@
 // import "./index.css";
 import Navbar from "./Navbar";
-import Bio from "./Bio";
+// import Bio from "./Bio";
 import Journey from "./Journey";
 import Portfolio from "./Portfolio";
 // import Skills from "./Skills";
