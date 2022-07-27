@@ -56,7 +56,7 @@ experienceData[3] = {
   Company: "Wyse Limited",
   Title: "Wholesale Account Executive",
   Location: "London, UK",
-  Date: "Dec. 2019 — Sept. 2020",
+  Date: "Nov. 2019 — Oct. 2020",
   Description:
     "▪ Oversaw orders and logistics from start to finish for over 20 accounts which resulted in 17% sales growth for wholesale",
   Description1:
