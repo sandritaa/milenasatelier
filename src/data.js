@@ -90,7 +90,7 @@ experienceData[5] = {
   Location: "New York City, NY",
   Date: "Mar. 2017 — Nov. 2017",
   Description:
-    "▪ Served as primary wholesale liaison between Account Executives and Logistics while effectively managing multiple priorities in a fast-paced and deadline-driven environment ",
+    "▪ Primary wholesale liaison between Account Executives and Logistics while effectively managing multiple priorities in a fast-paced and deadline-driven environment",
   Description1:
     "▪ Worked with Italian and domestic cross-functional teams to ensure timely and proactive flow-through of samples, market orders and linesheets",
   Description2:
