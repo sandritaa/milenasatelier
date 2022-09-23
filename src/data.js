@@ -24,23 +24,22 @@ experienceData[0] = {
 
 experienceData[1] = {
   id: "experienceData1",
-  Company: "RedSol",
+  Company: "Justice International",
   Title: "Associate Product Manager",
   Location: "Mountain View, CA",
   Date: "May 2022 — Present",
-  Description:
-    "▪ Lead Engineering using Agile to develop our web application which provides service to immigrants impacted by the diaspora in Venezuela",
+  Description: "▪ Lead engineering using agile to develop our web application",
   Description1:
-    "▪ Design mockups and UI with Figma. Incorporate user feedback into application to improve the user experience",
+    "▪ Design UI and mockups with Figma. Incorporate user feedback into application to improve the user experience",
   Description2:
     "▪ Define opportunities for our applications based on quantitative and qualitative market analysis",
   Description3:
-    "▪ Translate user feedback to developers and prioritized product backlog based on business needs",
+    "▪ Translate user feedback to developers and prioritize product backlog based on business needs",
   Icon: <WorkIcon />,
 };
 experienceData[2] = {
   id: "experienceData2",
-  Company: "RedSol",
+  Company: "Justice International",
   Title: "Software Developer",
   Location: "Mountain View, CA",
   Date: "Jun. 2021 — May 2022",
@@ -62,7 +61,7 @@ experienceData[3] = {
   Description1:
     "▪ Responsible for tracking KPIs to identify gaps or inconsistencies in order to optimize processes and workflows for efficiency",
   Description2:
-    "▪ Worked closely with cross-functional teams to improve the e-commerce customer experience which resulted in a 70% sales increase",
+    "▪ Worked closely with cross-functional teams to improve the e-commerce customer experience which drove sales growth by 70%",
   Icon: <WorkIcon />,
 };
 
