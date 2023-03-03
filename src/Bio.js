@@ -17,7 +17,7 @@ const Bio = () => {
             a decade working in sales and product development for high end
             fashion companies in London and New York. While in London, she had
             the opportunity to work alongside many talented teams and experience
-            first hand the positive impact of technology on sales and E-commerce
+            first hand the positive impact of technology on sales and E-Commerce
             businesses. Leveraging her creativity and problem solving ability
             she began her journey in software development and hopes to
             contribute to the development of user centric technologies that have

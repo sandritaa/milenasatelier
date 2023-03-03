@@ -25,7 +25,7 @@ function Portfolio() {
             </a>
             <br />
             <p>
-              E-commerce web app for upcoming artists to showcase and sell their
+              E-Commerce web app for upcoming artists to showcase and sell their
               art, built using Flask, JS and SQLAlchemy
             </p>
           </div>
@@ -63,7 +63,7 @@ function Portfolio() {
             </a>
             <br />
             <p>
-              MadalasArt is a web application that allows for an artist to
+              MandalasArt is a web application that allows for an artist to
               showcase and sell their artwork
             </p>
           </div>

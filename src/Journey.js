@@ -27,6 +27,54 @@ const Journey = () => {
           </div> */}
 
           <VerticalTimeline lineColor="black" iconStyle={{ color: "black" }}>
+          {educationData.map((edData) => {
+              return (
+                <VerticalTimelineElement
+                  className="vertical-timeline-element--edu"
+                  contentStyle={{
+                    background: "rgb(250, 250, 250)",
+                    color: "#000",
+                  }}
+                  contentArrowStyle={{
+                    borderRight: "7px solid  rgb(97, 97, 97)",
+                  }}
+                  dateClassName={"dateEdu"}
+                  date={edData.Date}
+                  iconStyle={{
+                    background: "#ffffff",
+                    color: "#000",
+
+                    // background: "rgb(238, 224, 191)",
+                    // color: "#fff",
+                  }}
+                  icon={edData.Icon}
+                >
+                  <Grid
+                    container
+                    spacing={1}
+                    sx={{
+                      p: 1,
+                      margin: "auto",
+                      maxWidth: 500,
+                      flexGrow: 1,
+                    }}
+                  >
+                    <Grid item>
+                      <h3 className="edDegree-title">{edData.Degree}</h3>
+                      <h4 className="edSchool-subtitle">{edData.School}</h4>
+                      <h4 className="edkMajorHonors-subtitle">
+                        {edData.Major} {edData.Honors}
+                      </h4>
+                      <h4 className="edLocation-subtitle">{edData.Location}</h4>
+                      {/* <h4 className="vertical-timeline-element-subtitle">
+                    {edData.Honors}
+                  </h4> */}
+                    </Grid>
+                  </Grid>
+                </VerticalTimelineElement>
+              );
+            })}
+            
             {experienceData.map((Data) => {
               return (
                 <VerticalTimelineElement
@@ -77,53 +125,7 @@ const Journey = () => {
                 // </div>
               );
             })}
-            {educationData.map((edData) => {
-              return (
-                <VerticalTimelineElement
-                  className="vertical-timeline-element--edu"
-                  contentStyle={{
-                    background: "rgb(250, 250, 250)",
-                    color: "#000",
-                  }}
-                  contentArrowStyle={{
-                    borderRight: "7px solid  rgb(97, 97, 97)",
-                  }}
-                  dateClassName={"dateEdu"}
-                  date={edData.Date}
-                  iconStyle={{
-                    background: "#ffffff",
-                    color: "#000",
-
-                    // background: "rgb(238, 224, 191)",
-                    // color: "#fff",
-                  }}
-                  icon={edData.Icon}
-                >
-                  <Grid
-                    container
-                    spacing={1}
-                    sx={{
-                      p: 1,
-                      margin: "auto",
-                      maxWidth: 500,
-                      flexGrow: 1,
-                    }}
-                  >
-                    <Grid item>
-                      <h3 className="edDegree-title">{edData.Degree}</h3>
-                      <h4 className="edSchool-subtitle">{edData.School}</h4>
-                      <h4 className="edkMajorHonors-subtitle">
-                        {edData.Major} {edData.Honors}
-                      </h4>
-                      <h4 className="edLocation-subtitle">{edData.Location}</h4>
-                      {/* <h4 className="vertical-timeline-element-subtitle">
-                    {edData.Honors}
-                  </h4> */}
-                    </Grid>
-                  </Grid>
-                </VerticalTimelineElement>
-              );
-            })}
+        
           </VerticalTimeline>
         </div>
         <div></div>
