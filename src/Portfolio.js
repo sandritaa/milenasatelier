@@ -64,7 +64,7 @@ function Portfolio() {
             <br />
             <p>
               MadalasArt is a web application that allows for an artist to
-              showcase and sell their artwork.
+              showcase and sell their artwork
             </p>
           </div>
           <div className="box">
@@ -76,7 +76,7 @@ function Portfolio() {
             <br />
             <p>
               Web app built using React.js that walks users through my
-              professional and educaVonal journey
+              professional and educational journey
             </p>
           </div>
         </div>
