@@ -161,19 +161,25 @@ ul {
 .vertical-timeline-element--work h3,
 .vertical-timeline-element--work h4,
 .vertical-timeline-element--edu .dateEdu,
-.vertical-timeline-element--edu h3,
-.vertical-timeline-element--edu h4 {
+.vertical-timeline-element--edu h3
+
+/* .vertical-timeline-element--edu h4  */
+  {
   color: black;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
+  font-weight: 400;
 }
+
+
 
 .vertical-timeline-element--work h3 {
   font-size: 1.1rem;
 }
 
 .vertical-timeline-element--work h4 {
-  font-size: .9rem;
+  font-size: 1rem;
+
 }
 
 .vertical-timeline-element--work p {
@@ -182,11 +188,13 @@ ul {
 
 .vertical-timeline-element--edu h3 {
   font-size: 1.1rem;
-  /* margin-bottom: 7px; */
+  margin-bottom: 7px;
 }
 
 .vertical-timeline-element--edu h4 {
   font-size: .9rem;
+  font-family: 'Maitree', serif;
+  font-weight: 200;
 }
 
 .vertical-timeline-element--work p {
@@ -249,24 +257,27 @@ ul {
 
 
 .boxes .container {
-  display: flex;
+  /* display: grid; */
   justify-content: space-between;
   /* text-decoration: none; */
 }
 
 .box {
   flex: 1;
-  margin: 20px 50px;
+  margin-right: 30px;
+  /* margin: 20px 50px; */
   box-shadow: 0 3px 5px rgba(200, 197, 197, 0.6);
-  padding: 15px 20px;
+  padding: 20px 20px;
   /* text-decoration: none; */
 }
 
 .box h3 {
   font-size: 1.1rem;
+
   /* line-height: 2.0; */
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
+  font-weight: 400;
 }
 
 .box p {

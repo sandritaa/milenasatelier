@@ -104,8 +104,8 @@ export const educationData = [];
 educationData[0] = {
   id: "educationData1",
   School: "Hackbright Academy - Sponsored by Walmart",
-  Location: "San Francisco, CA",
   Degree: "Full-Stack Software Engineering Fellowship",
+  Location: "San Francisco, CA",
   Major: "Full-Stack Software Engineering",
   Date: "Feb. 2023",
   Icon: <UniIcon />,
@@ -114,8 +114,8 @@ educationData[0] = {
 educationData[1] = {
   id: "educationData1",
   School: "Udacity",
-  Location: "Mountain View, CA",
   Degree: "Nanodegree Degree",
+  Location: "Mountain View, CA",
   Major: "Front End Web Development",
   Date: "Jun. 2021",
   Icon: <UniIcon />,
@@ -124,8 +124,8 @@ educationData[1] = {
 educationData[2] = {
   id: "educationData1",
   School: "Fashion Institute of Technology",
-  Location: "New York City, NY",
   Degree: "Bachelor of Science Degree",
+  Location: "New York City, NY",
   Major: "Merchandising Management —",
   Honors: "Magna Cum Laude",
   Date: "Dec. 2015",
@@ -135,8 +135,8 @@ educationData[2] = {
 educationData[3] = {
   id: "educationData1",
   School: "Polimoda",
-  Location: "Florence, Italy",
   Degree: "Bachelor of Science Degree",
+  Location: "Florence, Italy",
   Major: "Merchandising Management —",
   Honors: "Study Abroad",
   Date: "May 2015",
@@ -146,8 +146,8 @@ educationData[3] = {
 educationData[4] = {
   id: "educationData1",
   School: "Nassau Community College",
-  Location: "Garden City, NY",
   Degree: "Associate In Applied Science Degree",
+  Location: "Garden City, NY",
   Major: "Buying and Merchandising —",
   Honors: "Magna Cum Laude",
   Date: "May 2013",

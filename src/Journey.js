@@ -112,10 +112,10 @@ const Journey = () => {
                     <Grid item>
                       <h3 className="edDegree-title">{edData.Degree}</h3>
                       <h4 className="edSchool-subtitle">{edData.School}</h4>
-                      <h4 className="edLocation-subtitle">{edData.Location}</h4>
                       <h4 className="edkMajorHonors-subtitle">
                         {edData.Major} {edData.Honors}
                       </h4>
+                      <h4 className="edLocation-subtitle">{edData.Location}</h4>
                       {/* <h4 className="vertical-timeline-element-subtitle">
                     {edData.Honors}
                   </h4> */}
