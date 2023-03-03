@@ -12,13 +12,19 @@ const Bio = () => {
           {/* <div id="imgTextContainer"> */}
 
           <p>
-            Creative and product driven Front End Developer located in the Bay
-            Area. Previously based in New York City and London working on
-            developing products throughout the entire life cycle with a focus on
-            handling multiple accounts, liaising with logistics and improving
-            user experience. Currently working on developing innovative digital
-            products using web technologies such as Figma, React.js and Vue.js
+            Creative software developer and product manager with a business
+            degree from the Fashion Institute of Technology who has spent almost
+            a decade working in sales and product development for high end
+            fashion companies in London and New York. While in London, she had
+            the opportunity to work alongside many talented teams and experience
+            first hand the positive impact of technology on sales and E-commerce
+            businesses. Leveraging her creativity and problem solving ability
+            she began her journey in software development and hopes to
+            contribute to the development of user centric technologies that have
+            real impact on the world by continuing to make products come to
+            life, but this time, digital.{" "}
           </p>
+
           <img src={bioPic} alt="" />
         </div>
         {/* <img src={bioPic} alt="" />

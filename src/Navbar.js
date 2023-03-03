@@ -26,11 +26,6 @@ const Navbar = () => {
           <div class="logo">sandra milena</div>
 
           <ul className="navLinks-item">
-            {/* <li>
-              <a href="#Bio" onClick={handleClick}>
-                Bio
-              </a>
-            </li> */}
             <li>
               <a href="#Journey" onClick={handleClick}>
                 Journey
