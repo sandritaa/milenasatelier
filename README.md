@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Milena's Atelier
+
+Web app built using React.js that walks users through my professional and educational journey
+
+![alt text](/src/portfolioIcons/img6.png)
+
+## About the developer
+
+Milena's Atelier was created by Sandra. Learn more about the developer on [LinkedIn](https://www.linkedin.com/in/sandramilenan/).
+
+## Tech stack
+
+- **Frontend:** React.js, JavaScript, HTML, CSS
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
