@@ -212,18 +212,20 @@ ul {
 .skillBox {
   flex: 1;
   /* margin-top: 20px; */
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   margin-left: 10px;
   margin-right: 10px;
   /* margin: 20px 50px; */
   box-shadow: 0 3px 5px rgba(200, 197, 197, 0.6);
   padding: 15px 20px;
+
 }
 
 .skillBox h3 {
   font-size: 1.1rem;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
+  font-weight: 400;
 }
 
 .skillBox p {
@@ -277,7 +279,6 @@ ul {
 
 .box h3 {
   font-size: 1.1rem;
-
   /* line-height: 2.0; */
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;

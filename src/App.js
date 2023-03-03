@@ -2,8 +2,8 @@
 import Navbar from "./Navbar";
 import Bio from "./Bio";
 import Journey from "./Journey";
-import Portfolio from "./Portfolio";
 import Skills from "./Skills";
+import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       <div className="content"></div>
       <Bio />
       <Journey />
-      <Portfolio />
       <Skills />
+      <Portfolio />
       <Contact />
     </div>
   );

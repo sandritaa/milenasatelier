@@ -1,9 +1,9 @@
 import * as React from "react";
-import skillsPic0 from "./skillsIcons/code.svg";
+// import skillsPic0 from "./skillsIcons/code.svg";
 // import skillsPic1 from "./skillsIcons/communication.svg";
-import skillsPic2 from "./skillsIcons/sports.svg";
-import skillsPic3 from "./skillsIcons/strategy.svg";
-import skillsPic4 from "./skillsIcons/world.svg";
+// import skillsPic2 from "./skillsIcons/sports.svg";
+// import skillsPic3 from "./skillsIcons/strategy.svg";
+// import skillsPic4 from "./skillsIcons/world.svg";
 
 function Skills() {
   return (
