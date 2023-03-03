@@ -4,13 +4,28 @@ import UniIcon from "@material-ui/icons/SchoolOutlined";
 //experince info
 
 export const experienceData = [];
-
 experienceData[0] = {
   id: "experienceData0",
+  Company: "Justice International",
+  Title: "Associate Product Manager",
+  Location: "Mountain View, CA",
+  Date: "May 2022 — Nov. 2022",
+  Description: "▪ Lead engineering using agile to develop our web application",
+  Description1:
+    "▪ Design UI and mockups with Figma. Incorporate user feedback into application to improve the user experience",
+  Description2:
+    "▪ Define opportunities for our applications based on quantitative and qualitative market analysis",
+  Description3:
+    "▪ Translate user feedback to developers and prioritize product backlog based on business needs",
+  Icon: <WorkIcon />,
+};
+
+experienceData[1] = {
+  id: "experienceData1",
   Company: "Code Ninjas",
   Title: "Head Instructor",
   Location: "Fremont, CA",
-  Date: "Aug. 2021 — Present",
+  Date: "Aug. 2021 — Aug. 2022",
   Description:
     "▪ Lead a team of 10+ instructors through daily operations and communicate progress to leadership",
   Description1:
@@ -22,21 +37,6 @@ experienceData[0] = {
   Icon: <WorkIcon />,
 };
 
-experienceData[1] = {
-  id: "experienceData1",
-  Company: "Justice International",
-  Title: "Associate Product Manager",
-  Location: "Mountain View, CA",
-  Date: "May 2022 — Present",
-  Description: "▪ Lead engineering using agile to develop our web application",
-  Description1:
-    "▪ Design UI and mockups with Figma. Incorporate user feedback into application to improve the user experience",
-  Description2:
-    "▪ Define opportunities for our applications based on quantitative and qualitative market analysis",
-  Description3:
-    "▪ Translate user feedback to developers and prioritize product backlog based on business needs",
-  Icon: <WorkIcon />,
-};
 experienceData[2] = {
   id: "experienceData2",
   Company: "Justice International",
@@ -103,6 +103,16 @@ export const educationData = [];
 
 educationData[0] = {
   id: "educationData1",
+  School: "Hackbright Academy",
+  Location: "San Francisco, CA",
+  Degree: "Full-Stack Software Engineering Fellowship - Sponsored by Walmart",
+  Major: "Full-Stack Software Engineering",
+  Date: "Feb. 2023",
+  Icon: <UniIcon />,
+};
+
+educationData[1] = {
+  id: "educationData1",
   School: "Udacity",
   Location: "Mountain View, CA",
   Degree: "Nanodegree Degree",
@@ -111,7 +121,7 @@ educationData[0] = {
   Icon: <UniIcon />,
 };
 
-educationData[1] = {
+educationData[2] = {
   id: "educationData1",
   School: "Fashion Institute of Technology",
   Location: "New York City, NY",
@@ -122,7 +132,7 @@ educationData[1] = {
   Icon: <UniIcon />,
 };
 
-educationData[2] = {
+educationData[3] = {
   id: "educationData1",
   School: "Polimoda",
   Location: "Florence, Italy",
@@ -133,7 +143,7 @@ educationData[2] = {
   Icon: <UniIcon />,
 };
 
-educationData[3] = {
+educationData[4] = {
   id: "educationData1",
   School: "Nassau Community College",
   Location: "Garden City, NY",
