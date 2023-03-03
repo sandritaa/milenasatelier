@@ -2,7 +2,7 @@
 
 Web app built using React.js that walks users through my professional and educational journey
 
-[Milena's Atelier](https://sandritaa.github.io/milenasatelier/)
+The web app can be accessed here: [Milena's Atelier](https://sandritaa.github.io/milenasatelier/)
 
 ![alt text](/src/portfolioIcons/img6.png)
 
