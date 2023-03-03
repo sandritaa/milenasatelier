@@ -27,6 +27,11 @@ const Navbar = () => {
 
           <ul className="navLinks-item">
             <li>
+              <a href="#Bio" onClick={handleClick}>
+                Bio
+              </a>
+            </li>
+            <li>
               <a href="#Journey" onClick={handleClick}>
                 Journey
               </a>
