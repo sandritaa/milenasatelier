@@ -12,41 +12,41 @@ experienceData[0] = {
   Date: "May 2022 — Nov. 2022",
   Description: "▪ Lead engineering using agile to develop our web application",
   Description1:
-    "▪ Design UI and mockups with Figma. Incorporate user feedback into application to improve the user experience",
+    "▪ Designed UI and mockups with Figma. Incorporated user feedback into application to improve the user experience ",
   Description2:
-    "▪ Define opportunities for our applications based on quantitative and qualitative market analysis",
+    "▪ Defined opportunities for our applications based on quantitative and qualitative market analysis ",
   Description3:
-    "▪ Translate user feedback to developers and prioritize product backlog based on business needs",
+    "▪ Translated user feedback to developers and prioritized product backlog based on business needs ",
   Icon: <WorkIcon />,
 };
 
 experienceData[1] = {
   id: "experienceData1",
-  Company: "Code Ninjas",
-  Title: "Head Instructor",
-  Location: "Fremont, CA",
-  Date: "Aug. 2021 — Aug. 2022",
-  Description:
-    "▪ Lead a team of 10+ instructors through daily operations and communicate progress to leadership",
-  Description1:
-    "▪ Prioritize and plan weekly strategies for the instructors to ensure the delivery of a complete and high quality customer experience",
-  Description2:
-    "▪ Manage technical program and operations based on student progress reports, instructors performance score and account retention rate",
-  Description3:
-    "▪ Teach and introduce children ages 6 - 14 to code using JavaScript, HTML, CSS and Scratch",
-  Icon: <WorkIcon />,
-};
-
-experienceData[2] = {
-  id: "experienceData2",
   Company: "Justice International",
   Title: "Software Developer",
   Location: "Mountain View, CA",
   Date: "Jun. 2021 — May 2022",
   Description:
-    "▪ Collaborated with front-end and back-end developers from GitHub and Stanford to develop an app that aids Venezuelan refugees",
+    "▪ Collaborated with front-end and back-end developers from GitHub and Stanford to develop an application that aids Venezuelan refugees ",
   Description1:
     "▪ Developed the front-end of the web app using Vue.js, collected user input information and exchanged the data with the back-end",
+  Icon: <WorkIcon />,
+};
+
+experienceData[2] = {
+  id: "experienceData2",
+  Company: "Code Ninjas",
+  Title: "Head Instructor",
+  Location: "Fremont, CA",
+  Date: "Aug. 2021 — Aug. 2022",
+  Description:
+    "▪ Lead a team of 10+ instructors through daily operations and communicated progress to leadership",
+  Description1:
+    "▪ Prioritized and planned weekly strategies for the instructors to ensure the delivery of a complete and high quality customer experience",
+  Description2:
+    "▪ Managed technical program and operations based on student progress reports, instructors performance score and account retention rate",
+  Description3:
+    "▪ Taught and introduced children ages 6 - 14 to code using JavaScript, HTML, CSS and Scratch",
   Icon: <WorkIcon />,
 };
 
@@ -103,9 +103,9 @@ export const educationData = [];
 
 educationData[0] = {
   id: "educationData1",
-  School: "Hackbright Academy",
+  School: "Hackbright Academy - Sponsored by Walmart",
   Location: "San Francisco, CA",
-  Degree: "Full-Stack Software Engineering Fellowship - Sponsored by Walmart",
+  Degree: "Full-Stack Software Engineering Fellowship",
   Major: "Full-Stack Software Engineering",
   Date: "Feb. 2023",
   Icon: <UniIcon />,
