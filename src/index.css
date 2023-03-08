@@ -209,10 +209,10 @@ ul {
   /* max-width: max-content; */
 }
 
-.boxSkills {
+/* .boxSkills {
   border-style: solid;
   border-color: red;
-}
+} */
 
 .skillBox {
   flex: 1;
