@@ -209,6 +209,11 @@ ul {
   /* max-width: max-content; */
 }
 
+.boxSkills {
+  border-style: solid;
+  border-color: red;
+}
+
 .skillBox {
   flex: 1;
   /* margin-top: 20px; */
@@ -232,14 +237,14 @@ ul {
   font-family: 'Maitree', serif;
 }
 
-.skillBox img {
+/* .skillBox img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 
-#skillBox1 img {
+/* #skillBox1 img {
   max-width: 50px;
 
 }
@@ -257,7 +262,8 @@ ul {
 #skillBox4 img {
   max-width: 70px;
   /* max-height: 90px; */
-}
+/* } */
+
 
 /*/         *** portfolio ***        /*/
 
@@ -389,6 +395,32 @@ footer {
     display: block;
     max-width: 700px;
   }
+
+  .boxSkills .container {
+    display: block;
+    justify-content: space-between;
+    max-width: 700px;
+    /* max-width: max-content; */
+  }
+
+  .skillBox {
+    margin-bottom: 30px;
+
+  }
+
+  .skillBox h3 {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+
+  }
+
+  .skillBox p {
+
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+  }
 }
 
 @media(max-width:854px) {
@@ -432,6 +464,12 @@ footer {
     /* background-color: aqua; */
   }
 
+  .box img {
+    max-width: 200px;
+  }
+
+
+
 }
 
 @media(max-width:530px) {
@@ -447,6 +485,7 @@ footer {
   .headerBioContainer h2,
   .headerJourneyContainer h2,
   .headerPortContainer h2,
+  .headerSkillsContainer h2,
   .headerContact h2 {
     font-size: 1.3rem;
   }
@@ -487,6 +526,21 @@ footer {
 
   .box p {
     font-size: .7rem;
+  }
+
+  .skillBox h3 {
+    font-size: .8rem;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+
+  }
+
+  .skillBox p {
+    font-size: .7rem;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
   }
 
   .contactForm {
@@ -534,6 +588,7 @@ footer {
   .headerBioContainer h2,
   .headerJourneyContainer h2,
   .headerPortContainer h2,
+  .headerSkillsContainer h2,
   .headerContact h2 {
     font-size: 1.2rem;
   }
@@ -573,6 +628,15 @@ footer {
   }
 
   .box p {
+    font-size: .7rem;
+  }
+
+  .skillBox h3 {
+    font-size: .8rem;
+
+  }
+
+  .skillBox p {
     font-size: .7rem;
   }
 
