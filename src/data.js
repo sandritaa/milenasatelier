@@ -72,13 +72,15 @@ experienceData[4] = {
   Location: "New York City, NY",
   Date: "Nov. 2017 — Jul. 2019",
   Description:
-    "▪ Responsible for the product development process from initial design concept to commercialization while meeting tight deadlines",
+    "▪ Responsible for the product development process from initial design concept to commercialization for Soft Accessories and Knitwear",
   Description1:
-    "▪ Built strong relationships with over 10 domestic and overseas service providers through daily communication and problem-solving in order to maintain quality control and on-time delivery for an average of 40 styles a season",
+    "▪ Managed a daily WIP chart to track the development and production status for all styles and samples",
   Description2:
-    "▪ Managed two separate product timelines and roadmaps while working on multiple work flows that depended on each other",
+    "▪ Responsible for bill of materials (BOM’s) input, yarn purchase orders, seasonal invoices, and the review of garment tests and care labels",
   Description3:
-    "▪ Maintained seasonal cost sheets and provided cost options for merchants in order to help meet margin requirements, as well as hold design integrity",
+    "▪ Created seasonal cost sheets and provided cost options for merchants to help meet margin requirements, as well as hold design integrity",
+  Description4:
+    "▪ Built strong relationships with domestic and overseas service providers through daily communication and problem-solving in order to maintain quality control and on-time delivery for an average of 40 styles a season within two separate product timelines",
   Icon: <WorkIcon />,
 };
 

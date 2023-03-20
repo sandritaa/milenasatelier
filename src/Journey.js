@@ -27,7 +27,7 @@ const Journey = () => {
           </div> */}
 
           <VerticalTimeline lineColor="black" iconStyle={{ color: "black" }}>
-          {educationData.map((edData) => {
+            {educationData.map((edData) => {
               return (
                 <VerticalTimelineElement
                   className="vertical-timeline-element--edu"
@@ -74,7 +74,7 @@ const Journey = () => {
                 </VerticalTimelineElement>
               );
             })}
-            
+
             {experienceData.map((Data) => {
               return (
                 <VerticalTimelineElement
@@ -117,6 +117,7 @@ const Journey = () => {
                         <p>{Data.Description1}</p>
                         <p>{Data.Description2}</p>
                         <p>{Data.Description3}</p>
+                        <p>{Data.Description4}</p>
                       </div>
                       {/* </Typography> */}
                     </Grid>
@@ -125,7 +126,6 @@ const Journey = () => {
                 // </div>
               );
             })}
-        
           </VerticalTimeline>
         </div>
         <div></div>
