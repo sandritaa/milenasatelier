@@ -7,8 +7,6 @@ import "react-vertical-timeline-component/style.min.css";
 import { experienceData } from "./data";
 import { educationData } from "./data";
 import Grid from "@mui/material/Grid";
-// import Typography from "@mui/material/Typography";
-// import Paper from "@mui/material/Paper";
 
 const Journey = () => {
   return (
@@ -22,10 +20,6 @@ const Journey = () => {
 
       <section className="journeyHeader">
         <div className="container" id="journeyContainer">
-          {/* <div>
-            <h2>Journey</h2>
-          </div> */}
-
           <VerticalTimeline lineColor="black" iconStyle={{ color: "black" }}>
             {educationData.map((edData) => {
               return (

@@ -13,10 +13,6 @@ function Portfolio() {
       </div>
       <section className="boxes">
         <div className="container" id="portfolioContainer">
-          {/* <div>
-            {" "} */}
-          {/* <h2>Portfolio</h2> */}
-
           <div className="box">
             <h3>Galleria Milena</h3>
             <br />
