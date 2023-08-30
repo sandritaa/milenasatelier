@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/milenasatelier/static/css/main.d33007d1.css",
-    "main.js": "/milenasatelier/static/js/main.5c2c2b09.js",
+    "main.css": "/milenasatelier/static/css/main.c9c7f1e4.css",
+    "main.js": "/milenasatelier/static/js/main.eaeef657.js",
     "static/media/img5.png": "/milenasatelier/static/media/img5.bfb6cbe93c4bb4ca5844.png",
     "static/media/img7.png": "/milenasatelier/static/media/img7.9fda82bde5e868376af3.png",
     "static/media/img6.png": "/milenasatelier/static/media/img6.5f45d7cc793a4a9cf245.png",
@@ -9,11 +9,11 @@
     "static/media/img2.jpeg": "/milenasatelier/static/media/img2.ab45dc2404c84e9308bf.jpeg",
     "static/media/img1.png": "/milenasatelier/static/media/img1.bb5396394f97d71b580a.png",
     "index.html": "/milenasatelier/index.html",
-    "main.d33007d1.css.map": "/milenasatelier/static/css/main.d33007d1.css.map",
-    "main.5c2c2b09.js.map": "/milenasatelier/static/js/main.5c2c2b09.js.map"
+    "main.c9c7f1e4.css.map": "/milenasatelier/static/css/main.c9c7f1e4.css.map",
+    "main.eaeef657.js.map": "/milenasatelier/static/js/main.eaeef657.js.map"
   },
   "entrypoints": [
-    "static/css/main.d33007d1.css",
-    "static/js/main.5c2c2b09.js"
+    "static/css/main.c9c7f1e4.css",
+    "static/js/main.eaeef657.js"
   ]
 }
