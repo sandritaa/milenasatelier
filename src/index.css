@@ -199,6 +199,17 @@ ul {
   font-weight: 200;
 }
 
+.vertical-timeline-element--cert h3 {
+  font-size: 1.1rem;
+  margin-bottom: 7px;
+}
+
+.vertical-timeline-element--cert h4 {
+  font-size: .9rem;
+  font-family: 'Maitree', serif;
+  font-weight: 200;
+}
+
 .vertical-timeline-element--work p {
   font-family: 'Maitree', serif;
 }
