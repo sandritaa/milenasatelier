@@ -14,11 +14,11 @@ experienceData[0] = {
   Description:
     "▪ Lead engineering using agile to develop our web application, RCore, resulting in a 15% reduction in development time ",
   Description1:
-    "▪ Design UI and mockups, contribuVng to a 20% acceleraVon in feature implementaVon and a 35% increase in user expectaVon alignment ",
+    "▪ Design UI and mockups, contributing to a 20% acceleration in feature implementation and a 35% increase in user expectation alignment ",
   Description2:
-    "▪ Define opportuniVes for our applicaVons based on quanVtaVve and qualitaVve market analysis ",
+    "▪ Define opportunities for our application based on quantitative and qualitative market analysis ",
   Description3:
-    "▪ Translate pilot tesVng user feedback to developers and prioriVze product backlog based on business needs ",
+    "▪ Translate pilot testing user feedback to developers and prioritize product backlog based on business needs ",
   Icon: <WorkIcon />,
 };
 
