@@ -62,14 +62,13 @@ const Journey = () => {
                         {edData.Major} {edData.Honors}
                       </h4>
                       <h4 className="edLocation-subtitle">{edData.Location}</h4>
-                    
                     </Grid>
                   </Grid>
                 </VerticalTimelineElement>
               );
             })}
 
-<VerticalTimeline lineColor="black" iconStyle={{ color: "black" }}>
+            {/* <VerticalTimeline lineColor="black" iconStyle={{ color: "black" }}> */}
             {certificateData.map((certData) => {
               return (
                 <VerticalTimelineElement
@@ -100,10 +99,15 @@ const Journey = () => {
                     }}
                   >
                     <Grid item>
-                      <h3 className="certDegree-title">{certificateData.Degree}</h3>
-                      <h4 className="certSchool-subtitle">{certificateData.School}</h4>
-                      <h4 className="certLocation-subtitle">{certificateData.Location}</h4>
-                    
+                      <h3 className="certDegree-title">
+                        {certificateData.Degree}
+                      </h3>
+                      <h4 className="certSchool-subtitle">
+                        {certificateData.School}
+                      </h4>
+                      <h4 className="certLocation-subtitle">
+                        {certificateData.Location}
+                      </h4>
                     </Grid>
                   </Grid>
                 </VerticalTimelineElement>

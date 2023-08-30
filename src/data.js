@@ -1,6 +1,6 @@
 import WorkIcon from "@material-ui/icons/WorkOutline";
 import UniIcon from "@material-ui/icons/SchoolOutlined";
-import CertificateIcon from "@mui/icons-material/WorkspacePremium";
+import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
 
 //experince info
 
@@ -157,7 +157,7 @@ certificateData[0] = {
   Location: "Mountain View, CA",
   Major: "Product Management",
   Date: "Apr. 2023",
-  Icon: <CertificateIcon />,
+  Icon: <VerifiedUserIcon />,
 };
 
 certificateData[1] = {
@@ -167,5 +167,5 @@ certificateData[1] = {
   Location: "Mountain View, CA",
   Major: "Front End Web Development",
   Date: "Jun. 2021",
-  Icon: <CertificateIcon />,
+  Icon: <VerifiedUserIcon />,
 };
