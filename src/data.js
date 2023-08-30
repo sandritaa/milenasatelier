@@ -117,16 +117,6 @@ educationData[0] = {
 
 educationData[1] = {
   id: "educationData1",
-  School: "Udacity",
-  Degree: "Nanodegree Degree",
-  Location: "Mountain View, CA",
-  Major: "Front End Web Development",
-  Date: "Jun. 2021",
-  Icon: <UniIcon />,
-};
-
-educationData[2] = {
-  id: "educationData1",
   School: "Fashion Institute of Technology",
   Degree: "Bachelor of Science Degree",
   Location: "New York City, NY",
@@ -136,7 +126,7 @@ educationData[2] = {
   Icon: <UniIcon />,
 };
 
-educationData[3] = {
+educationData[2] = {
   id: "educationData1",
   School: "Polimoda",
   Degree: "Bachelor of Science Degree",
@@ -147,7 +137,7 @@ educationData[3] = {
   Icon: <UniIcon />,
 };
 
-educationData[4] = {
+educationData[3] = {
   id: "educationData1",
   School: "Nassau Community College",
   Degree: "Associate In Applied Science Degree",
@@ -156,4 +146,26 @@ educationData[4] = {
   Honors: "Magna Cum Laude",
   Date: "May 2013",
   Icon: <UniIcon />,
+};
+
+export const certificateData = [];
+
+certificateData[0] = {
+  id: "certificationData1",
+  School: "Udacity",
+  Degree: "Nanodegree Degree",
+  Location: "Mountain View, CA",
+  Major: "Product Management",
+  Date: "Apr. 2023",
+  Icon: <CertificateIcon />,
+};
+
+certificateData[1] = {
+  id: "certificationData1",
+  School: "Udacity",
+  Degree: "Nanodegree Degree",
+  Location: "Mountain View, CA",
+  Major: "Front End Web Development",
+  Date: "Jun. 2021",
+  Icon: <CertificateIcon />,
 };
