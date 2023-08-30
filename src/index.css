@@ -161,7 +161,9 @@ ul {
 .vertical-timeline-element--work h3,
 .vertical-timeline-element--work h4,
 .vertical-timeline-element--edu .dateEdu,
-.vertical-timeline-element--edu h3
+.vertical-timeline-element--edu h3,
+.vertical-timeline-element--cert .dateCert,
+.vertical-timeline-element--cert h3
 
 /* .vertical-timeline-element--edu h4  */
   {

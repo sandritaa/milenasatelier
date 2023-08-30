@@ -7,17 +7,6 @@ function Contact() {
   const emailRef = useRef(null);
   const messageRef = useRef(null);
 
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   const data = {
-  //     firstName: firstNameRef.current.value,
-  //     lastName: lastNameRef.current.value,
-  //     email: emailRef.current.value,
-  //     message: messageRef.current.value,
-  //   };
-  //   alert("tadaaa!: \n" + JSON.stringify(data) + "Your data 😎");
-  // };
-
   function myFunction() {
     alert("message successfully sent");
     window.location.reload();
@@ -30,9 +19,6 @@ function Contact() {
           <div className="headerContact">
             <h2>contact me</h2>
           </div>
-          {/* <div className="nameContact">
-            <h2>sandra novi</h2>
-          </div> */}
 
           <div className="contactForm" id="ContactForm">
             <div className="container" id="contactContainer">
@@ -40,11 +26,8 @@ function Contact() {
                 action="https://formsubmit.co/axel-porch0s@icloud.com"
                 method="POST"
                 onSubmit={myFunction}
-                // onSubmit={handleSubmit}
                 className="contactForm"
               >
-                {/* <div className="name"> */}
-
                 <div id="firstNameBox">
                   <label for="firstName" id="nameLabel">
                     First name
@@ -116,16 +99,11 @@ function Contact() {
                     Send
                   </button>
                 </div>
-                {/* </form>
-              <div className="invisibleElement"></div> */}
-                {/* </div> */}
-                {/* </div>  */}
               </form>
             </div>
           </div>
         </div>
       </nav>
-      {/* <footer className="footer">by: sandra novi</footer> */}
 
       <footer className="footer">by: sandra milena</footer>
     </body>

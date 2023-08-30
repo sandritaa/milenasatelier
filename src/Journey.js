@@ -72,7 +72,7 @@ const Journey = () => {
             {certificateData.map((certData) => {
               return (
                 <VerticalTimelineElement
-                  className="vertical-timeline-element--edu"
+                  className="vertical-timeline-element--cert"
                   contentStyle={{
                     background: "rgb(250, 250, 250)",
                     color: "#000",
@@ -81,12 +81,12 @@ const Journey = () => {
                     borderRight: "7px solid  rgb(97, 97, 97)",
                   }}
                   dateClassName={"dateCert"}
-                  date={certificateData.Date}
+                  date={certData.Date}
                   iconStyle={{
                     background: "#ffffff",
                     color: "#000",
                   }}
-                  icon={certificateData.Icon}
+                  icon={certData.Icon}
                 >
                   <Grid
                     container
@@ -99,14 +99,10 @@ const Journey = () => {
                     }}
                   >
                     <Grid item>
-                      <h3 className="certDegree-title">
-                        {certificateData.Degree}
-                      </h3>
-                      <h4 className="certSchool-subtitle">
-                        {certificateData.School}
-                      </h4>
+                      <h3 className="certDegree-title">{certData.Degree}</h3>
+                      <h4 className="certSchool-subtitle">{certData.School}</h4>
                       <h4 className="certLocation-subtitle">
-                        {certificateData.Location}
+                        {certData.Location}
                       </h4>
                     </Grid>
                   </Grid>
