@@ -1,5 +1,6 @@
 import WorkIcon from "@material-ui/icons/WorkOutline";
 import UniIcon from "@material-ui/icons/SchoolOutlined";
+import CertificateIcon from "@mui/icons-material/WorkspacePremium";
 
 //experince info
 
@@ -9,14 +10,15 @@ experienceData[0] = {
   Company: "Justice International",
   Title: "Associate Product Manager",
   Location: "Mountain View, CA",
-  Date: "May 2022 — Nov. 2022",
-  Description: "▪ Lead engineering using agile to develop our web application",
+  Date: "May 2022 — Present",
+  Description:
+    "▪ Lead engineering using agile to develop our web application, RCore, resulting in a 15% reduction in development time ",
   Description1:
-    "▪ Designed UI and mockups with Figma. Incorporated user feedback into application to improve the user experience ",
+    "▪ Design UI and mockups, contribuVng to a 20% acceleraVon in feature implementaVon and a 35% increase in user expectaVon alignment ",
   Description2:
-    "▪ Defined opportunities for our applications based on quantitative and qualitative market analysis ",
+    "▪ Define opportuniVes for our applicaVons based on quanVtaVve and qualitaVve market analysis ",
   Description3:
-    "▪ Translated user feedback to developers and prioritized product backlog based on business needs ",
+    "▪ Translate pilot tesVng user feedback to developers and prioriVze product backlog based on business needs ",
   Icon: <WorkIcon />,
 };
 
@@ -40,13 +42,13 @@ experienceData[2] = {
   Location: "Fremont, CA",
   Date: "Aug. 2021 — Aug. 2022",
   Description:
-    "▪ Lead a team of 10+ instructors through daily operations and communicated progress to leadership",
+    "▪ Led a team of 10+ instructors through daily operations achieving a 10% increase in customer retention and 23% rise in new sign-ups",
   Description1:
     "▪ Prioritized and planned weekly strategies for the instructors to ensure the delivery of a complete and high quality customer experience",
   Description2:
     "▪ Managed technical program and operations based on student progress reports, instructors performance score and account retention rate",
   Description3:
-    "▪ Taught and introduced children ages 6 - 14 to code using JavaScript, HTML, CSS and Scratch",
+    "▪ Taught and introduced children ages 6 - 14 to code using JavaScript, Python, HTML, CSS and Scratch",
   Icon: <WorkIcon />,
 };
 
