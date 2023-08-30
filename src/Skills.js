@@ -54,7 +54,7 @@ function Skills() {
             <p>▪ Shopify</p>
             <p>▪ ECVision</p>
             <p>▪ Joor</p>
-            <p>▪ Microso Office</p>
+            <p>▪ Microsoft Office</p>
           </div>
 
           <div className="skillBox" id="skillBox4">
