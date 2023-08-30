@@ -102,7 +102,7 @@ const Journey = () => {
                       <h3 className="certDegree-title">{certData.Degree}</h3>
                       <h4 className="certSchool-subtitle">{certData.School}</h4>
                       <h4 className="certMajorHonors-subtitle">
-                        {edData.Major}
+                        {certData.Major}
                       </h4>
                       <h4 className="certLocation-subtitle">
                         {certData.Location}
