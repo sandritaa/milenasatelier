@@ -6,6 +6,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experienceData } from "./data";
 import { educationData } from "./data";
+import { certificateData } from "./data";
+
 import Grid from "@mui/material/Grid";
 
 const Journey = () => {
@@ -60,9 +62,48 @@ const Journey = () => {
                         {edData.Major} {edData.Honors}
                       </h4>
                       <h4 className="edLocation-subtitle">{edData.Location}</h4>
-                      {/* <h4 className="vertical-timeline-element-subtitle">
-                    {edData.Honors}
-                  </h4> */}
+                    
+                    </Grid>
+                  </Grid>
+                </VerticalTimelineElement>
+              );
+            })}
+
+<VerticalTimeline lineColor="black" iconStyle={{ color: "black" }}>
+            {certificateData.map((certData) => {
+              return (
+                <VerticalTimelineElement
+                  className="vertical-timeline-element--edu"
+                  contentStyle={{
+                    background: "rgb(250, 250, 250)",
+                    color: "#000",
+                  }}
+                  contentArrowStyle={{
+                    borderRight: "7px solid  rgb(97, 97, 97)",
+                  }}
+                  dateClassName={"dateCert"}
+                  date={certificateData.Date}
+                  iconStyle={{
+                    background: "#ffffff",
+                    color: "#000",
+                  }}
+                  icon={certificateData.Icon}
+                >
+                  <Grid
+                    container
+                    spacing={1}
+                    sx={{
+                      p: 1,
+                      margin: "auto",
+                      maxWidth: 500,
+                      flexGrow: 1,
+                    }}
+                  >
+                    <Grid item>
+                      <h3 className="certDegree-title">{certificateData.Degree}</h3>
+                      <h4 className="certSchool-subtitle">{certificateData.School}</h4>
+                      <h4 className="certLocation-subtitle">{certificateData.Location}</h4>
+                    
                     </Grid>
                   </Grid>
                 </VerticalTimelineElement>
